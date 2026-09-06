@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+runtime/
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.wrangler/
+dashboard/.vinext/
+dashboard/.vite/
+dashboard/*.tsbuildinfo

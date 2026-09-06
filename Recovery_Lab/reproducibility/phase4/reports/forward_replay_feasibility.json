@@ -1,0 +1,7 @@
+{
+  "minimum_required": 200,
+  "max_prior_calibration_labels": 2,
+  "eligible_calibration_seizures": 0,
+  "calibration_seizures": 583,
+  "reason": "Counts use strictly earlier sold dates; no outcome-order replay mislabelled as seizure-time testing"
+}

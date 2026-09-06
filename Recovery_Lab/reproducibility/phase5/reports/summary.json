@@ -1,0 +1,75 @@
+{
+  "phase": 5,
+  "demo_results": [
+    {
+      "example": "base",
+      "status": "feasible_offer",
+      "candidate_count": 35,
+      "feasible_count": 24,
+      "recommended": {
+        "principal_inr": 80000.0,
+        "ltv": 0.8,
+        "tenure_months": 18,
+        "annual_nominal_rate": 0.21,
+        "emi_inr": 5219.59,
+        "foir": 0.3406553333333333,
+        "total_contractual_interest_inr": 13952.69
+      }
+    },
+    {
+      "example": "low_income",
+      "status": "no_feasible_offer",
+      "candidate_count": 35,
+      "feasible_count": 0,
+      "recommended": null
+    },
+    {
+      "example": "missing_obligations",
+      "status": "review_required",
+      "candidate_count": 0,
+      "feasible_count": 0,
+      "recommended": null
+    },
+    {
+      "example": "low_recovery",
+      "status": "no_feasible_offer",
+      "candidate_count": 35,
+      "feasible_count": 0,
+      "recommended": null
+    },
+    {
+      "example": "missing_path",
+      "status": "no_feasible_offer",
+      "candidate_count": 35,
+      "feasible_count": 0,
+      "recommended": null
+    },
+    {
+      "example": "recovery_delay",
+      "status": "feasible_offer",
+      "candidate_count": 35,
+      "feasible_count": 24,
+      "recommended": {
+        "principal_inr": 80000.0,
+        "ltv": 0.8,
+        "tenure_months": 18,
+        "annual_nominal_rate": 0.21,
+        "emi_inr": 5219.59,
+        "foir": 0.3406553333333333,
+        "total_contractual_interest_inr": 13952.69
+      }
+    }
+  ],
+  "retrospective_risk_rows": 583,
+  "retrospective_score_band_counts": {
+    "High": 367,
+    "Medium": 118,
+    "Critical": 43,
+    "Low": 55
+  },
+  "risk_outputs_are_calculations_not_accuracy_results": true,
+  "lending_examples_use_fictional_inputs": true,
+  "actual_borrower_approvals": 0,
+  "model_retrained": false,
+  "final_test_scored": false
+}

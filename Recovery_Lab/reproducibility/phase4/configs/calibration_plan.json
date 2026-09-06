@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "primary_protocol": "operational",
+  "input_role": "calibration",
+  "alpha": 0.2,
+  "target_central_coverage": 0.8,
+  "minimum_fit_records": 200,
+  "score": "max(ordered_lower - actual_sale, actual_sale - ordered_upper, 0)",
+  "rank": "ceil((n+1)*(1-alpha)), one-based, no interpolation; fail if rank exceeds n",
+  "endpoints": "lower=max(0,ordered_lower-correction); upper=ordered_upper+correction; median unchanged",
+  "diagnostic_split": {
+    "method": "Sort SHA256 of seed plus agreement ID, take first floor(0.7*n) as fit, remainder check",
+    "seed": "TVS-PHASE4-2026",
+    "fit_fraction": 0.7,
+    "scope": "Static held-back diagnostic within the selected calibration population; not time-ordered and not a prospective seizure-time test"
+  },
+  "final_fit": "After the fixed diagnostic, fit the same predeclared rule on all 583 operational calibration records; no tuning based on diagnostic results",
+  "final_artifact_available_from": "2026-05-01",
+  "label_availability_assumption": "Sold date proxies arrival; only labels strictly before May 1 are used",
+  "forward_replay_check": "For each calibration seizure count prior calibration labels strictly before that seizure; require minimum_fit_records before an online calibration claim",
+  "segment_policy": "One pooled correction; report segment counts and coverage descriptively, no segment-specific fitting",
+  "final_test_policy": "No final-test predictions or outcomes scored",
+  "coverage_limit": "Exchangeability is not established; no guaranteed per-vehicle, segment, temporal, or 36-month coverage"
+}

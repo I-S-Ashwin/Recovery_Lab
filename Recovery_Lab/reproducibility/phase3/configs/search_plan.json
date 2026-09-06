@@ -1,0 +1,33 @@
+{
+  "version": "1.0.1",
+  "runtime_correction": "Initial fit failed before any trial completed: early-stopping metric must specify all three alpha values, matching the objective. Candidate grid and evaluation data unchanged.",
+  "model": "CatBoostRegressor",
+  "target": "sale_amount",
+  "target_units": "INR",
+  "target_transformation": "none",
+  "loss_function": "MultiQuantile:alpha=0.1,0.5,0.9",
+  "iterations": 1000,
+  "early_stopping_rounds": 80,
+  "early_stopping_metric": "MultiQuantile:alpha=0.1,0.5,0.9",
+  "selection_metric": "operational tuning MAE of the ordered, nonnegative median prediction",
+  "tie_break": "earlier candidate in this fixed list",
+  "random_seed": 2026,
+  "thread_count": 4,
+  "task_type": "CPU",
+  "candidates": [
+    {"trial_id": "C1", "depth": 4, "learning_rate": 0.05, "l2_leaf_reg": 3},
+    {"trial_id": "C2", "depth": 6, "learning_rate": 0.05, "l2_leaf_reg": 3},
+    {"trial_id": "C3", "depth": 8, "learning_rate": 0.05, "l2_leaf_reg": 3},
+    {"trial_id": "C4", "depth": 4, "learning_rate": 0.10, "l2_leaf_reg": 10},
+    {"trial_id": "C5", "depth": 6, "learning_rate": 0.10, "l2_leaf_reg": 10},
+    {"trial_id": "C6", "depth": 8, "learning_rate": 0.10, "l2_leaf_reg": 10}
+  ],
+  "training_role": "operational.train",
+  "selection_role": "operational.tuning",
+  "secondary_diagnostic": "retrospective.tuning; never used to select model",
+  "reserved_roles": ["calibration", "final_test"],
+  "postprocessing": "Sort the three outputs within each row, then apply a lower bound of zero. Preserve raw outputs for diagnostics. Do not cap at original cost.",
+  "postprocessing_not_calibration": true,
+  "promotion_rule": "Candidate for Phase 4 only if operational tuning MAE improves on Phase 2 B0. No production promotion or final-test claim.",
+  "no_extra_search_after_results": true
+}

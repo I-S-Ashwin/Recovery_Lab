@@ -1,0 +1,25 @@
+{
+  "policy_id": "TVS-POC-DEMO-001",
+  "policy_status": "Demonstration assumptions only; not TVS Credit underwriting policy",
+  "currency": "INR",
+  "ltv_candidates": [0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9],
+  "tenure_candidates_months": [12, 18, 24, 30, 36],
+  "nominal_annual_base_rate": 0.18,
+  "ltv_premium_schedule": [
+    {"maximum_ltv": 0.7, "annual_premium": 0.02},
+    {"maximum_ltv": 0.8, "annual_premium": 0.03},
+    {"maximum_ltv": 0.9, "annual_premium": 0.05}
+  ],
+  "pricing_basis": "Fixed illustrative LTV bands; premiums are not learned default-risk prices",
+  "maximum_foir": 0.4,
+  "maximum_downside_shortfall_ratio": 0.2,
+  "exposure_checkpoints_months": [0, 6, 12, 18, 24, 30, 36],
+  "month_zero_reason": "Adds immediate-default exposure to the blueprint's six-month checkpoints; avoids ignoring early principal risk",
+  "default_exposure_convention": "Scheduled principal after t successful payments; freeze this principal during recovery delay, without later payments or extra arrears interest",
+  "ranking": ["highest_principal", "lowest_total_contractual_interest", "shortest_tenure"],
+  "money_rounding": "INR 0.01, ROUND_HALF_UP; final instalment reconciles remaining principal",
+  "risk_bands": [{"max_score": 25, "band": "Low"}, {"max_score": 50, "band": "Medium"}, {"max_score": 75, "band": "High"}, {"max_score": 100, "band": "Critical"}],
+  "retrospective_recovery_cost_assumption_inr": 3000,
+  "forecasting_in_phase5": false,
+  "automatic_loan_approval": false
+}

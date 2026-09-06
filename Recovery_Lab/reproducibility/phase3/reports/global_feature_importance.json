@@ -1,0 +1,47 @@
+[
+  {
+    "feature": "asset_model",
+    "importance": 28.099306373123305,
+    "type": "PredictionValuesChange; global, not causal"
+  },
+  {
+    "feature": "months_since_agreement_at_seizure",
+    "importance": 17.125585387626124,
+    "type": "PredictionValuesChange; global, not causal"
+  },
+  {
+    "feature": "asset_cost_at_disbursal",
+    "importance": 15.721393641338643,
+    "type": "PredictionValuesChange; global, not causal"
+  },
+  {
+    "feature": "customer_state",
+    "importance": 11.148232442197429,
+    "type": "PredictionValuesChange; global, not causal"
+  },
+  {
+    "feature": "customer_region",
+    "importance": 9.883733813870842,
+    "type": "PredictionValuesChange; global, not causal"
+  },
+  {
+    "feature": "asset_variant",
+    "importance": 7.390864328458998,
+    "type": "PredictionValuesChange; global, not causal"
+  },
+  {
+    "feature": "customer_branch",
+    "importance": 7.08994990525564,
+    "type": "PredictionValuesChange; global, not causal"
+  },
+  {
+    "feature": "pincode_tier",
+    "importance": 3.3876835629191686,
+    "type": "PredictionValuesChange; global, not causal"
+  },
+  {
+    "feature": "asset_fuel_type",
+    "importance": 0.15325054520996326,
+    "type": "PredictionValuesChange; global, not causal"
+  }
+]

@@ -1,0 +1,166 @@
+{
+  "operational": {
+    "model": {
+      "n": 1244,
+      "mae_inr": 7051.863755005328,
+      "rmse_inr": 9557.464560913051,
+      "median_absolute_error_inr": 5304.061925918781,
+      "mape_percent": 19.072304188145164,
+      "wape_percent": 15.642213350168054,
+      "r2": 0.6912601916792793,
+      "mean_signed_error_inr": -663.4368893750112
+    },
+    "baseline": {
+      "n": 1244,
+      "mae_inr": 8342.911643380034,
+      "rmse_inr": 11085.382163159675,
+      "median_absolute_error_inr": 6545.7905714921635,
+      "mape_percent": 22.79523516455557,
+      "wape_percent": 18.505973515827385,
+      "r2": 0.5846553917112344,
+      "mean_signed_error_inr": 115.1382392943569
+    },
+    "mae_reduction_percent": 15.474787982432144,
+    "base_interval": {
+      "n": 1244,
+      "covered": 893,
+      "coverage": 0.7178456591639871,
+      "wilson_95": [
+        0.6921955178541092,
+        0.742154532121175
+      ],
+      "below": 129,
+      "above": 222,
+      "mean_width_inr": 19427.464652713366,
+      "median_width_inr": 19518.982946453,
+      "mean_interval_score_inr": 33904.05633466505,
+      "alpha": 0.2
+    },
+    "calibrated_interval": {
+      "n": 1244,
+      "covered": 1001,
+      "coverage": 0.8046623794212219,
+      "wilson_95": [
+        0.7817072565303482,
+        0.8257417063502153
+      ],
+      "below": 98,
+      "above": 145,
+      "mean_width_inr": 23145.883082799446,
+      "median_width_inr": 23237.40137653908,
+      "mean_interval_score_inr": 33180.33384442077,
+      "alpha": 0.2
+    },
+    "protocol": "operational",
+    "role": "final_test",
+    "seizure_date_range": [
+      "2026-05-01",
+      "2026-07-09"
+    ],
+    "sale_date_range": [
+      "2026-06-20",
+      "2026-07-31"
+    ],
+    "model_available_at_seizure_count": 1244,
+    "unsupported_input_count": 19,
+    "support_warning_counts": {
+      "asset_variant: unseen category": 8,
+      "asset_cost_at_disbursal: outside training range": 1,
+      "customer_branch: unseen category": 9,
+      "customer_state: unseen category": 2
+    }
+  },
+  "retrospective": {
+    "model": {
+      "n": 1835,
+      "mae_inr": 7157.071305058191,
+      "rmse_inr": 9881.935916333727,
+      "median_absolute_error_inr": 5242.188577475987,
+      "mape_percent": 19.051255967273136,
+      "wape_percent": 15.681553549159343,
+      "r2": 0.691240329627274,
+      "mean_signed_error_inr": -685.5048113652812
+    },
+    "baseline": {
+      "n": 1835,
+      "mae_inr": 8603.81925410214,
+      "rmse_inr": 11622.071738672177,
+      "median_absolute_error_inr": 6550.202329397311,
+      "mape_percent": 22.923611177938636,
+      "wape_percent": 18.851461248560796,
+      "r2": 0.5729255346009785,
+      "mean_signed_error_inr": 20.256153021804224
+    },
+    "mae_reduction_percent": 16.815182959058173,
+    "base_interval": {
+      "n": 1835,
+      "covered": 1331,
+      "coverage": 0.7253405994550409,
+      "wilson_95": [
+        0.7044637597392885,
+        0.74527593697735
+      ],
+      "below": 191,
+      "above": 313,
+      "mean_width_inr": 19637.224970520616,
+      "median_width_inr": 19632.279536343805,
+      "mean_interval_score_inr": 34655.912169030795,
+      "alpha": 0.2
+    },
+    "calibrated_interval": {
+      "n": 1835,
+      "covered": 1482,
+      "coverage": 0.8076294277929156,
+      "wilson_95": [
+        0.7889596032082427,
+        0.8250139368075795
+      ],
+      "below": 146,
+      "above": 207,
+      "mean_width_inr": 23355.6434006067,
+      "median_width_inr": 23350.697966429885,
+      "mean_interval_score_inr": 34041.16264266276,
+      "alpha": 0.2
+    },
+    "protocol": "retrospective",
+    "role": "final_test",
+    "seizure_date_range": [
+      "2025-04-30",
+      "2026-07-09"
+    ],
+    "sale_date_range": [
+      "2026-05-05",
+      "2026-07-31"
+    ],
+    "model_available_at_seizure_count": 1244,
+    "unsupported_input_count": 34,
+    "support_warning_counts": {
+      "asset_variant: unseen category": 17,
+      "asset_cost_at_disbursal: outside training range": 1,
+      "customer_branch: unseen category": 12,
+      "customer_state: unseen category": 5
+    }
+  },
+  "paired_mae_bootstrap": {
+    "mean_mae_reduction_inr": 1291.047888374705,
+    "percentile_95_inr": [
+      1003.7348865150992,
+      1574.9548772146516
+    ],
+    "replicates": 2000,
+    "seed": 20260906,
+    "positive_means_model_better": true,
+    "caveat": "Case-resampling interval conditional on fixed models; ignores temporal, entity and training dependence"
+  },
+  "cohort_overlap": {
+    "intersection": 1244,
+    "unique_test_ids": 1835,
+    "independent_replications": false
+  },
+  "evaluation_started_utc": "2026-09-06T12:14:23.345733+00:00",
+  "evaluation_completed_utc": "2026-09-06T12:14:24.549363+00:00",
+  "model_retrained": false,
+  "calibration_refitted": false,
+  "policy_changed": false,
+  "evaluation_lock_sha256": "54fd0262a414069905a007452f11ae8913952cd14a6667b55c7ab50c33bc91c5"
+}

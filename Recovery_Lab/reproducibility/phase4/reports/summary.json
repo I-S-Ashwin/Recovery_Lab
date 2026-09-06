@@ -1,0 +1,82 @@
+{
+  "phase": 4,
+  "calibration_records": 583,
+  "final_correction": {
+    "n": 583,
+    "alpha": 0.2,
+    "target_coverage": 0.8,
+    "rank_one_based": 468,
+    "correction_inr": 1859.2092150430399,
+    "version": "phase4-operational-80-v1",
+    "model_sha256": "1b0c5949af11932f3ea693fee55a91aa68bc292d524e42f45151b5acd707d0d3",
+    "available_from": "2026-05-01",
+    "fit_role": "operational.calibration",
+    "method": "nonnegative conformal quantile expansion",
+    "calibration_scope": "pooled observed sold assets",
+    "coverage_assumption": "Exchangeability not established; no guaranteed temporal or per-segment coverage",
+    "lower_upper_are_not_individually_calibrated_quantiles": true
+  },
+  "raw_on_calibration": {
+    "n": 583,
+    "covered": 426,
+    "coverage": 0.7307032590051458,
+    "below": 63,
+    "above": 94,
+    "mean_width_inr": 19301.728975715305,
+    "median_width_inr": 19463.221780936445,
+    "median_mae_inr": 6804.817310498193
+  },
+  "adjusted_on_fit_data": {
+    "n": 583,
+    "covered": 468,
+    "coverage": 0.8027444253859348,
+    "below": 52,
+    "above": 63,
+    "mean_width_inr": 23020.14740580138,
+    "median_width_inr": 23181.640211022524,
+    "median_mae_inr": 6804.817310498193
+  },
+  "adjusted_fit_coverage_is_not_validation": true,
+  "heldback_diagnostic": {
+    "fit_n": 408,
+    "check_n": 175,
+    "correction": {
+      "n": 408,
+      "alpha": 0.2,
+      "target_coverage": 0.8,
+      "rank_one_based": 328,
+      "correction_inr": 1853.3255853179653
+    },
+    "raw_on_check": {
+      "n": 175,
+      "covered": 121,
+      "coverage": 0.6914285714285714,
+      "below": 21,
+      "above": 33,
+      "mean_width_inr": 19644.344991659746,
+      "median_width_inr": 19863.906399884465,
+      "median_mae_inr": 7628.704719125727
+    },
+    "adjusted_on_check": {
+      "n": 175,
+      "covered": 138,
+      "coverage": 0.7885714285714286,
+      "below": 16,
+      "above": 21,
+      "mean_width_inr": 23350.996162295676,
+      "median_width_inr": 23570.557570520396,
+      "median_mae_inr": 7628.704719125727
+    },
+    "scope": "Static held-back diagnostic within calibration population; not forward-time validation",
+    "not_validation_of_final_refit": true
+  },
+  "forward_replay": {
+    "minimum_required": 200,
+    "max_prior_calibration_labels": 2,
+    "eligible_calibration_seizures": 0,
+    "calibration_seizures": 583,
+    "reason": "Counts use strictly earlier sold dates; no outcome-order replay mislabelled as seizure-time testing"
+  },
+  "final_test_scored": false,
+  "model_retrained": false
+}

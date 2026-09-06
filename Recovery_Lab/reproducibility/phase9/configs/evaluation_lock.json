@@ -1,0 +1,60 @@
+{
+  "locked_at_utc": "2026-09-06T12:10:38.084153+00:00",
+  "version": "phase9-frozen-final-v1",
+  "primary_protocol": "operational.final_test",
+  "secondary_protocol": "retrospective.final_test",
+  "expected_counts": {
+    "operational": 1244,
+    "retrospective": 1835
+  },
+  "no_retraining": true,
+  "no_recalibration": true,
+  "no_policy_changes": true,
+  "primary_metric": "Median-prediction MAE versus frozen B0 on identical IDs",
+  "other_metrics": [
+    "RMSE",
+    "median absolute error",
+    "MAPE",
+    "WAPE",
+    "R2",
+    "signed error",
+    "raw and adjusted central-range coverage",
+    "mean and median interval width",
+    "interval score"
+  ],
+  "coverage_nominal": 0.8,
+  "coverage_interval": "95% Wilson interval; descriptive under independent Bernoulli assumptions",
+  "paired_mae_bootstrap": {
+    "replicates": 2000,
+    "seed": 20260906,
+    "confidence": 0.95,
+    "unit": "agreement row",
+    "scope": "conditional on fixed models; no temporal-cluster or training uncertainty"
+  },
+  "segments": [
+    "asset_fuel_type",
+    "asset_model",
+    "customer_region",
+    "seizure_month",
+    "sale_month",
+    "agreement_duration_bin"
+  ],
+  "small_segment_flag_below_n": 30,
+  "examples_rule": "Primary cohort: nearest median absolute error (tie agreement_id), largest calibrated downside miss if any, largest absolute error, then first unsupported ID if any. Diagnostic examples are not a performance sample.",
+  "retrospective_as_of_date": "2026-05-01",
+  "retrospective_caveat": "Some seizures predate model availability; secondary post-fit sale-period diagnostic, not real-time replay",
+  "holdout_caveat": "Phase 1 profiled the full dataset. Reserved model-development holdout, not an unseen external dataset. The two test cohorts may overlap and are not independent replications.",
+  "artifact_sha256": {
+    "phase1/data/canonical_records.jsonl": "34a903573d80aed79b58da9bc59a11e3764c2f7ada5ac030e99536b8efe50be0",
+    "phase2/data/operational_split_manifest.jsonl": "10e76bb88fe4950360aba33ded8743c587f81c392e781deb2108f0ca6bcce1e7",
+    "phase2/data/retrospective_split_manifest.jsonl": "806c3891e18e65d652df0f9b179467966e768369d3072b2b134840940e197cf8",
+    "phase2/models/B0_median_ratio.json": "0109f2ef0fb348279ade999e627da89ba0ac8d9e19194c0e8621f59b20ab20eb",
+    "phase4/models/catboost_quantiles.cbm": "1b0c5949af11932f3ea693fee55a91aa68bc292d524e42f45151b5acd707d0d3",
+    "phase4/models/calibration.json": "62f22af071375ef08be65986aa7e8570fabf07b5b4f72ec1c570874caddeeaea",
+    "phase4/models/base_feature_contract.json": "efffcfb89b34a594d8a8480888fe399d7a4638393fd37e592d13c34e146e0f52",
+    "phase8/api/calibrated.py": "a2cda7dcfe74bc2226a67f48536b6a63b147de112e52a4102292b98fdb41763e",
+    "phase8/api/frozen_valuation.py": "93f706e71e7a4a8609170ff84e2a627c36d40730cd2ebbdb55f2c6098c3379a1",
+    "phase8/api/frozen_baseline.py": "abf23a725a3a0733749942b1c386c7388f93fb671cff16e7e5b7c23aa4055f64",
+    "phase8/configs/demo_policy.json": "16698c83fc2d57ae4ca7a400bc7590b9509fcfbd4422ed8b3f1df3210790c9d1"
+  }
+}

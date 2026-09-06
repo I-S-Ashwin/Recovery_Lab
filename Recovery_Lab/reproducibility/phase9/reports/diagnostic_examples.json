@@ -1,0 +1,108 @@
+[
+  {
+    "selection": "Nearest median absolute error",
+    "case": {
+      "agreement_id": "ASSET_1004",
+      "protocol": "operational",
+      "role": "final_test",
+      "seizure_date": "2026-05-21",
+      "sold_date": "2026-06-25",
+      "seizure_month": "2026-05",
+      "sale_month": "2026-06",
+      "asset_fuel_type": "Petrol",
+      "asset_model": "MOPEDS",
+      "customer_region": "AP",
+      "agreement_duration_bin": "6",
+      "actual_sale_inr": 34000.0,
+      "baseline_inr": 39659.22032413491,
+      "baseline_reference_level": "model_duration",
+      "base_lower_inr": 30550.78600432664,
+      "median_inr": 39308.497629125384,
+      "base_upper_inr": 47100.27499616612,
+      "calibrated_lower_inr": 28691.5767892836,
+      "calibrated_upper_inr": 48959.48421120916,
+      "model_available_at_seizure": true,
+      "support_warnings": []
+    }
+  },
+  {
+    "selection": "Largest absolute error",
+    "case": {
+      "agreement_id": "ASSET_1161",
+      "protocol": "operational",
+      "role": "final_test",
+      "seizure_date": "2026-06-29",
+      "sold_date": "2026-07-29",
+      "seizure_month": "2026-06",
+      "sale_month": "2026-07",
+      "asset_fuel_type": "Petrol",
+      "asset_model": "JUPITER",
+      "customer_region": "AP",
+      "agreement_duration_bin": "6",
+      "actual_sale_inr": 15000.0,
+      "baseline_inr": 57086.89453125,
+      "baseline_reference_level": "model_duration",
+      "base_lower_inr": 46812.125149830084,
+      "median_inr": 61099.66717454295,
+      "base_upper_inr": 70472.27273147064,
+      "calibrated_lower_inr": 44952.915934787045,
+      "calibrated_upper_inr": 72331.48194651368,
+      "model_available_at_seizure": true,
+      "support_warnings": []
+    }
+  },
+  {
+    "selection": "Largest calibrated downside miss",
+    "case": {
+      "agreement_id": "ASSET_1161",
+      "protocol": "operational",
+      "role": "final_test",
+      "seizure_date": "2026-06-29",
+      "sold_date": "2026-07-29",
+      "seizure_month": "2026-06",
+      "sale_month": "2026-07",
+      "asset_fuel_type": "Petrol",
+      "asset_model": "JUPITER",
+      "customer_region": "AP",
+      "agreement_duration_bin": "6",
+      "actual_sale_inr": 15000.0,
+      "baseline_inr": 57086.89453125,
+      "baseline_reference_level": "model_duration",
+      "base_lower_inr": 46812.125149830084,
+      "median_inr": 61099.66717454295,
+      "base_upper_inr": 70472.27273147064,
+      "calibrated_lower_inr": 44952.915934787045,
+      "calibrated_upper_inr": 72331.48194651368,
+      "model_available_at_seizure": true,
+      "support_warnings": []
+    }
+  },
+  {
+    "selection": "First unsupported agreement ID",
+    "case": {
+      "agreement_id": "ASSET_10885",
+      "protocol": "operational",
+      "role": "final_test",
+      "seizure_date": "2026-06-30",
+      "sold_date": "2026-07-28",
+      "seizure_month": "2026-06",
+      "sale_month": "2026-07",
+      "asset_fuel_type": "EV",
+      "asset_model": "TVS",
+      "customer_region": "TN II",
+      "agreement_duration_bin": "0",
+      "actual_sale_inr": 80500.0,
+      "baseline_inr": 59859.680299080464,
+      "baseline_reference_level": "model_duration",
+      "base_lower_inr": 53265.86874263501,
+      "median_inr": 67972.6004721165,
+      "base_upper_inr": 88952.33031942442,
+      "calibrated_lower_inr": 51406.65952759197,
+      "calibrated_upper_inr": 90811.53953446746,
+      "model_available_at_seizure": true,
+      "support_warnings": [
+        "asset_variant: unseen category"
+      ]
+    }
+  }
+]

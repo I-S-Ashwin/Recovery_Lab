@@ -1,0 +1,15 @@
+{
+  "request_id": "DEMO-MISSING-OBLIGATIONS",
+  "policy_id": "TVS-POC-DEMO-001",
+  "policy_sha256": "f5d9f1b0454924a60d203ddb4158012fb69fa9d62c0fbcf61e6946b80ce846d6",
+  "request_sha256": "d48eaca31b1e0cda8aa58411e7762ef89b73aed710ec9baa88770f86fb235532",
+  "evidence_type": "policy_simulation",
+  "automatic_approval": false,
+  "policy_status": "Demonstration assumptions only; not TVS Credit underwriting policy",
+  "status": "review_required",
+  "reasons": [
+    "Missing required input: existing_monthly_obligations_inr"
+  ],
+  "recommended_offer": null,
+  "candidates": []
+}

@@ -1,0 +1,54 @@
+{
+  "operational": {
+    "training_sale_min": "2025-04-08",
+    "training_sale_max": "2025-12-31",
+    "tuning_seizure_min": "2026-01-03",
+    "tuning_seizure_max": "2026-01-31",
+    "tuning_sale_min": "2026-02-17",
+    "tuning_sale_max": "2026-02-28",
+    "tuning_seizure_month_counts": [
+      {
+        "seizure_month": "2026-01",
+        "records": 576
+      }
+    ]
+  },
+  "retrospective": {
+    "training_sale_min": "2025-04-08",
+    "training_sale_max": "2025-12-31",
+    "tuning_seizure_min": "2025-07-29",
+    "tuning_seizure_max": "2026-01-31",
+    "tuning_sale_min": "2026-01-02",
+    "tuning_sale_max": "2026-02-28",
+    "tuning_seizure_month_counts": [
+      {
+        "seizure_month": "2025-07",
+        "records": 1
+      },
+      {
+        "seizure_month": "2025-08",
+        "records": 5
+      },
+      {
+        "seizure_month": "2025-09",
+        "records": 11
+      },
+      {
+        "seizure_month": "2025-10",
+        "records": 124
+      },
+      {
+        "seizure_month": "2025-11",
+        "records": 295
+      },
+      {
+        "seizure_month": "2025-12",
+        "records": 867
+      },
+      {
+        "seizure_month": "2026-01",
+        "records": 576
+      }
+    ]
+  }
+}

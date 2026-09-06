@@ -1,0 +1,41 @@
+[
+  {
+    "asset_id": "DEMO-A",
+    "valuation_date": "2026-09-06",
+    "asset_reference_cost_inr": 100000,
+    "downside_anchor_inr": 70000,
+    "median_anchor_inr": 85000,
+    "existing_principal_inr": 80000,
+    "remaining_term_months": 36,
+    "annual_nominal_rate": 0.21,
+    "verified_monthly_income_inr": 30000,
+    "existing_monthly_obligations_inr": 5000,
+    "evidence_type": "Fictional fixture; all verification flags assumed"
+  },
+  {
+    "asset_id": "DEMO-B",
+    "valuation_date": "2026-09-06",
+    "asset_reference_cost_inr": 80000,
+    "downside_anchor_inr": 52000,
+    "median_anchor_inr": 65000,
+    "existing_principal_inr": 65000,
+    "remaining_term_months": 24,
+    "annual_nominal_rate": 0.21,
+    "verified_monthly_income_inr": 25000,
+    "existing_monthly_obligations_inr": 4000,
+    "evidence_type": "Fictional fixture; all verification flags assumed"
+  },
+  {
+    "asset_id": "DEMO-C",
+    "valuation_date": "2026-09-06",
+    "asset_reference_cost_inr": 140000,
+    "downside_anchor_inr": 90000,
+    "median_anchor_inr": 110000,
+    "existing_principal_inr": 120000,
+    "remaining_term_months": 36,
+    "annual_nominal_rate": 0.21,
+    "verified_monthly_income_inr": 40000,
+    "existing_monthly_obligations_inr": 7000,
+    "evidence_type": "Fictional fixture; all verification flags assumed"
+  }
+]

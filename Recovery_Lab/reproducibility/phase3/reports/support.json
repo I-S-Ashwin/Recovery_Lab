@@ -1,0 +1,46 @@
+[
+  {
+    "protocol": "operational",
+    "unknown_category_rows_by_field": {
+      "customer_branch": 0,
+      "customer_region": 0,
+      "customer_state": 0,
+      "pincode_tier": 0,
+      "asset_variant": 0,
+      "asset_model": 0,
+      "asset_fuel_type": 0
+    },
+    "numeric_training_bounds": {
+      "asset_cost_at_disbursal": {
+        "min": 50500.0,
+        "max": 346347.0
+      },
+      "months_since_agreement_at_seizure": {
+        "min": 2.066666666666667,
+        "max": 85.43333333333334
+      }
+    }
+  },
+  {
+    "protocol": "retrospective",
+    "unknown_category_rows_by_field": {
+      "customer_branch": 0,
+      "customer_region": 0,
+      "customer_state": 2,
+      "pincode_tier": 0,
+      "asset_variant": 1,
+      "asset_model": 0,
+      "asset_fuel_type": 0
+    },
+    "numeric_training_bounds": {
+      "asset_cost_at_disbursal": {
+        "min": 50500.0,
+        "max": 346347.0
+      },
+      "months_since_agreement_at_seizure": {
+        "min": 2.066666666666667,
+        "max": 85.43333333333334
+      }
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "version": "phase6-demo-v1",
+  "status": "Illustrative assumptions, not estimated from future outcomes or approved lending policy",
+  "factor_interpolation": "Linear between anchors; no extrapolation",
+  "factor_anchors": [
+    {"month": 0, "factor": 1},
+    {"month": 12, "factor": 0.8},
+    {"month": 24, "factor": 0.65},
+    {"month": 36, "factor": 0.5},
+    {"month": 42, "factor": 0.45}
+  ],
+  "scenarios": [
+    {"name": "base", "market_multiplier": 1, "recovery_cost_inr": 3000, "recovery_delay_months": 0},
+    {"name": "adverse", "market_multiplier": 0.9, "recovery_cost_inr": 4000, "recovery_delay_months": 1},
+    {"name": "severe", "market_multiplier": 0.8, "recovery_cost_inr": 6000, "recovery_delay_months": 3}
+  ]
+}

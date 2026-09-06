@@ -1,0 +1,11 @@
+{
+  "policy_sha256": "16698c83fc2d57ae4ca7a400bc7590b9509fcfbd4422ed8b3f1df3210790c9d1",
+  "phase1_data_sha256": "34a903573d80aed79b58da9bc59a11e3764c2f7ada5ac030e99536b8efe50be0",
+  "phase4_predictions_sha256": "be5e965d920302c264f0a2acc5fa09d136280740715477ad5fd74beb3e80056c",
+  "source_code_sha256": {
+    "engine.py": "7623a33de074d7c191354832c03e084f0dd8e44a9a45f70a40f06e7f6085224d",
+    "run_phase5.py": "199d130adc75d5b87b1fef0abe39518fa94343e6cf76b8129df6117f855aa873"
+  },
+  "created_utc": "2026-09-06T10:03:43.296369+00:00",
+  "source_model_or_calibration_changed": false
+}

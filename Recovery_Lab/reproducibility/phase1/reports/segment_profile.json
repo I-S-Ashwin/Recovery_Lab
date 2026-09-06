@@ -1,0 +1,458 @@
+[
+  {
+    "field": "asset_fuel_type",
+    "segment": "EV",
+    "records": 306,
+    "median_sale": 63000.0,
+    "median_original_cost": 149885.0,
+    "median_sale_to_cost_ratio": 0.4233531889338841
+  },
+  {
+    "field": "asset_fuel_type",
+    "segment": "Petrol",
+    "records": 14694,
+    "median_sale": 43000.0,
+    "median_original_cost": 116211.5,
+    "median_sale_to_cost_ratio": 0.39046426291158864
+  },
+  {
+    "field": "asset_model",
+    "segment": "APACHE",
+    "records": 2190,
+    "median_sale": 63000.0,
+    "median_original_cost": 154709.0,
+    "median_sale_to_cost_ratio": 0.4055561188279428
+  },
+  {
+    "field": "asset_model",
+    "segment": "CITY PLUS",
+    "records": 353,
+    "median_sale": 34000.0,
+    "median_original_cost": 94629.0,
+    "median_sale_to_cost_ratio": 0.3502047725128165
+  },
+  {
+    "field": "asset_model",
+    "segment": "JUPITER",
+    "records": 2761,
+    "median_sale": 47000.0,
+    "median_original_cost": 111420.0,
+    "median_sale_to_cost_ratio": 0.42099354476564693
+  },
+  {
+    "field": "asset_model",
+    "segment": "MOPEDS",
+    "records": 2089,
+    "median_sale": 31000.0,
+    "median_original_cost": 76838.0,
+    "median_sale_to_cost_ratio": 0.4166351034012575
+  },
+  {
+    "field": "asset_model",
+    "segment": "NTORQ",
+    "records": 2401,
+    "median_sale": 46500.0,
+    "median_original_cost": 123278.0,
+    "median_sale_to_cost_ratio": 0.37708317963095034
+  },
+  {
+    "field": "asset_model",
+    "segment": "PEP",
+    "records": 38,
+    "median_sale": 33250.0,
+    "median_original_cost": 84900.0,
+    "median_sale_to_cost_ratio": 0.3850507130858644
+  },
+  {
+    "field": "asset_model",
+    "segment": "RADEON",
+    "records": 810,
+    "median_sale": 35000.0,
+    "median_original_cost": 94865.0,
+    "median_sale_to_cost_ratio": 0.3775626955587727
+  },
+  {
+    "field": "asset_model",
+    "segment": "RAIDER",
+    "records": 2494,
+    "median_sale": 45000.0,
+    "median_original_cost": 121559.0,
+    "median_sale_to_cost_ratio": 0.36641020124290025
+  },
+  {
+    "field": "asset_model",
+    "segment": "RONIN",
+    "records": 92,
+    "median_sale": 73750.0,
+    "median_original_cost": 196100.0,
+    "median_sale_to_cost_ratio": 0.38021709625950934
+  },
+  {
+    "field": "asset_model",
+    "segment": "SPORT",
+    "records": 1081,
+    "median_sale": 27000.0,
+    "median_original_cost": 77000.0,
+    "median_sale_to_cost_ratio": 0.3402517863218782
+  },
+  {
+    "field": "asset_model",
+    "segment": "STAR CITY",
+    "records": 1,
+    "median_sale": 23000.0,
+    "median_original_cost": 74200.0,
+    "median_sale_to_cost_ratio": 0.30997304582210244
+  },
+  {
+    "field": "asset_model",
+    "segment": "TVS",
+    "records": 306,
+    "median_sale": 63000.0,
+    "median_original_cost": 149885.0,
+    "median_sale_to_cost_ratio": 0.4233531889338841
+  },
+  {
+    "field": "asset_model",
+    "segment": "ZEST",
+    "records": 384,
+    "median_sale": 50300.0,
+    "median_original_cost": 97099.0,
+    "median_sale_to_cost_ratio": 0.5260132332532756
+  },
+  {
+    "field": "customer_region",
+    "segment": "AP",
+    "records": 1769,
+    "median_sale": 44000.0,
+    "median_original_cost": 118000.0,
+    "median_sale_to_cost_ratio": 0.394743334594319
+  },
+  {
+    "field": "customer_region",
+    "segment": "EAST I",
+    "records": 3110,
+    "median_sale": 50000.0,
+    "median_original_cost": 121857.0,
+    "median_sale_to_cost_ratio": 0.4191649589406269
+  },
+  {
+    "field": "customer_region",
+    "segment": "EAST II",
+    "records": 754,
+    "median_sale": 37366.5,
+    "median_original_cost": 112732.0,
+    "median_sale_to_cost_ratio": 0.36987264215392435
+  },
+  {
+    "field": "customer_region",
+    "segment": "EAST III",
+    "records": 1644,
+    "median_sale": 41000.0,
+    "median_original_cost": 120323.0,
+    "median_sale_to_cost_ratio": 0.35887254918493944
+  },
+  {
+    "field": "customer_region",
+    "segment": "GJ",
+    "records": 210,
+    "median_sale": 43250.0,
+    "median_original_cost": 109020.0,
+    "median_sale_to_cost_ratio": 0.36102980095342363
+  },
+  {
+    "field": "customer_region",
+    "segment": "KA",
+    "records": 1445,
+    "median_sale": 42000.0,
+    "median_original_cost": 118900.0,
+    "median_sale_to_cost_ratio": 0.3743230328129978
+  },
+  {
+    "field": "customer_region",
+    "segment": "MH",
+    "records": 574,
+    "median_sale": 39500.0,
+    "median_original_cost": 112000.0,
+    "median_sale_to_cost_ratio": 0.3561523166301481
+  },
+  {
+    "field": "customer_region",
+    "segment": "MP",
+    "records": 970,
+    "median_sale": 38000.0,
+    "median_original_cost": 110183.0,
+    "median_sale_to_cost_ratio": 0.3624626188215327
+  },
+  {
+    "field": "customer_region",
+    "segment": "NORTH I",
+    "records": 509,
+    "median_sale": 36060.0,
+    "median_original_cost": 95758.0,
+    "median_sale_to_cost_ratio": 0.3657538987530283
+  },
+  {
+    "field": "customer_region",
+    "segment": "NORTH II",
+    "records": 568,
+    "median_sale": 30000.0,
+    "median_original_cost": 92450.0,
+    "median_sale_to_cost_ratio": 0.33569525237617204
+  },
+  {
+    "field": "customer_region",
+    "segment": "RJ",
+    "records": 593,
+    "median_sale": 40000.0,
+    "median_original_cost": 96667.0,
+    "median_sale_to_cost_ratio": 0.410726923465777
+  },
+  {
+    "field": "customer_region",
+    "segment": "TN I",
+    "records": 1391,
+    "median_sale": 46000.0,
+    "median_original_cost": 117000.0,
+    "median_sale_to_cost_ratio": 0.41058033951835765
+  },
+  {
+    "field": "customer_region",
+    "segment": "TN II",
+    "records": 1463,
+    "median_sale": 46000.0,
+    "median_original_cost": 98280.0,
+    "median_sale_to_cost_ratio": 0.4614074109128768
+  },
+  {
+    "field": "customer_state",
+    "segment": "AP",
+    "records": 1769,
+    "median_sale": 44000.0,
+    "median_original_cost": 118000.0,
+    "median_sale_to_cost_ratio": 0.394743334594319
+  },
+  {
+    "field": "customer_state",
+    "segment": "AR",
+    "records": 5,
+    "median_sale": 32000.0,
+    "median_original_cost": 115210.0,
+    "median_sale_to_cost_ratio": 0.2819536826995784
+  },
+  {
+    "field": "customer_state",
+    "segment": "AS",
+    "records": 1685,
+    "median_sale": 49000.0,
+    "median_original_cost": 122499.0,
+    "median_sale_to_cost_ratio": 0.4045464800566365
+  },
+  {
+    "field": "customer_state",
+    "segment": "BR",
+    "records": 1395,
+    "median_sale": 40000.0,
+    "median_original_cost": 120300.0,
+    "median_sale_to_cost_ratio": 0.35435435435435436
+  },
+  {
+    "field": "customer_state",
+    "segment": "CG",
+    "records": 113,
+    "median_sale": 43000.0,
+    "median_original_cost": 114858.0,
+    "median_sale_to_cost_ratio": 0.41112130946917547
+  },
+  {
+    "field": "customer_state",
+    "segment": "DL",
+    "records": 217,
+    "median_sale": 34500.0,
+    "median_original_cost": 106606.0,
+    "median_sale_to_cost_ratio": 0.33980582524271846
+  },
+  {
+    "field": "customer_state",
+    "segment": "GJ",
+    "records": 210,
+    "median_sale": 43250.0,
+    "median_original_cost": 109020.0,
+    "median_sale_to_cost_ratio": 0.36102980095342363
+  },
+  {
+    "field": "customer_state",
+    "segment": "GO",
+    "records": 14,
+    "median_sale": 32750.0,
+    "median_original_cost": 112720.5,
+    "median_sale_to_cost_ratio": 0.31993469561051197
+  },
+  {
+    "field": "customer_state",
+    "segment": "HP",
+    "records": 29,
+    "median_sale": 37140.0,
+    "median_original_cost": 109400.0,
+    "median_sale_to_cost_ratio": 0.3849273522358584
+  },
+  {
+    "field": "customer_state",
+    "segment": "HR",
+    "records": 110,
+    "median_sale": 31750.0,
+    "median_original_cost": 91008.5,
+    "median_sale_to_cost_ratio": 0.342835231068256
+  },
+  {
+    "field": "customer_state",
+    "segment": "JH",
+    "records": 249,
+    "median_sale": 45000.0,
+    "median_original_cost": 121798.0,
+    "median_sale_to_cost_ratio": 0.3769576094033789
+  },
+  {
+    "field": "customer_state",
+    "segment": "JK",
+    "records": 21,
+    "median_sale": 52000.0,
+    "median_original_cost": 118333.0,
+    "median_sale_to_cost_ratio": 0.39164715603911304
+  },
+  {
+    "field": "customer_state",
+    "segment": "KA",
+    "records": 1431,
+    "median_sale": 42000.0,
+    "median_original_cost": 119000.0,
+    "median_sale_to_cost_ratio": 0.37460978147762747
+  },
+  {
+    "field": "customer_state",
+    "segment": "KE",
+    "records": 389,
+    "median_sale": 48000.0,
+    "median_original_cost": 124458.0,
+    "median_sale_to_cost_ratio": 0.3968079008862043
+  },
+  {
+    "field": "customer_state",
+    "segment": "KL",
+    "records": 12,
+    "median_sale": 74542.56,
+    "median_original_cost": 120224.5,
+    "median_sale_to_cost_ratio": 0.5296326903267601
+  },
+  {
+    "field": "customer_state",
+    "segment": "MH",
+    "records": 574,
+    "median_sale": 39500.0,
+    "median_original_cost": 112000.0,
+    "median_sale_to_cost_ratio": 0.3561523166301481
+  },
+  {
+    "field": "customer_state",
+    "segment": "ML",
+    "records": 1,
+    "median_sale": 20000.0,
+    "median_original_cost": 104874.0,
+    "median_sale_to_cost_ratio": 0.1907050365200145
+  },
+  {
+    "field": "customer_state",
+    "segment": "MN",
+    "records": 18,
+    "median_sale": 48500.0,
+    "median_original_cost": 108460.0,
+    "median_sale_to_cost_ratio": 0.45904331788286484
+  },
+  {
+    "field": "customer_state",
+    "segment": "MP",
+    "records": 862,
+    "median_sale": 36800.0,
+    "median_original_cost": 106058.5,
+    "median_sale_to_cost_ratio": 0.35581865247736044
+  },
+  {
+    "field": "customer_state",
+    "segment": "MZ",
+    "records": 2,
+    "median_sale": 62500.0,
+    "median_original_cost": 110074.5,
+    "median_sale_to_cost_ratio": 0.5676087170606932
+  },
+  {
+    "field": "customer_state",
+    "segment": "NG",
+    "records": 3,
+    "median_sale": 52000.0,
+    "median_original_cost": 123966.0,
+    "median_sale_to_cost_ratio": 0.4194698546375619
+  },
+  {
+    "field": "customer_state",
+    "segment": "OR",
+    "records": 651,
+    "median_sale": 46000.0,
+    "median_original_cost": 116207.0,
+    "median_sale_to_cost_ratio": 0.4187604690117253
+  },
+  {
+    "field": "customer_state",
+    "segment": "PB",
+    "records": 132,
+    "median_sale": 42050.0,
+    "median_original_cost": 91074.0,
+    "median_sale_to_cost_ratio": 0.433101128527909
+  },
+  {
+    "field": "customer_state",
+    "segment": "PY",
+    "records": 352,
+    "median_sale": 47500.0,
+    "median_original_cost": 100746.5,
+    "median_sale_to_cost_ratio": 0.46558296627407136
+  },
+  {
+    "field": "customer_state",
+    "segment": "RJ",
+    "records": 593,
+    "median_sale": 40000.0,
+    "median_original_cost": 96667.0,
+    "median_sale_to_cost_ratio": 0.410726923465777
+  },
+  {
+    "field": "customer_state",
+    "segment": "TN",
+    "records": 2101,
+    "median_sale": 45000.0,
+    "median_original_cost": 103900.0,
+    "median_sale_to_cost_ratio": 0.437929879698086
+  },
+  {
+    "field": "customer_state",
+    "segment": "TR",
+    "records": 93,
+    "median_sale": 42500.0,
+    "median_original_cost": 116110.0,
+    "median_sale_to_cost_ratio": 0.36382536382536385
+  },
+  {
+    "field": "customer_state",
+    "segment": "UP",
+    "records": 1317,
+    "median_sale": 35000.0,
+    "median_original_cost": 104508.0,
+    "median_sale_to_cost_ratio": 0.3545413524141043
+  },
+  {
+    "field": "customer_state",
+    "segment": "WB",
+    "records": 652,
+    "median_sale": 59750.0,
+    "median_original_cost": 125200.0,
+    "median_sale_to_cost_ratio": 0.4728617962340921
+  }
+]

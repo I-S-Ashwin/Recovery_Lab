@@ -1,0 +1,15 @@
+{
+  "canonical_sha256": "34a903573d80aed79b58da9bc59a11e3764c2f7ada5ac030e99536b8efe50be0",
+  "phase2_split_hashes": {
+    "operational": "10e76bb88fe4950360aba33ded8743c587f81c392e781deb2108f0ca6bcce1e7",
+    "retrospective": "806c3891e18e65d652df0f9b179467966e768369d3072b2b134840940e197cf8"
+  },
+  "search_plan_sha256": "6d4dba9e458144ef95b62bf3ff80f4da48fe701697ca8792a63bdf01c2762c2b",
+  "frozen_before_fit_utc": "2026-09-06T09:37:46.454310+00:00",
+  "source_code_sha256": {
+    "train.py": "465189445e8c97c95fb7d3dc960dfad4784c6a934641c1d6f1e8f021ed9df8ce",
+    "valuation.py": "93f706e71e7a4a8609170ff84e2a627c36d40730cd2ebbdb55f2c6098c3379a1"
+  },
+  "selection_role": "operational.tuning",
+  "reserved_outcomes_scored": false
+}

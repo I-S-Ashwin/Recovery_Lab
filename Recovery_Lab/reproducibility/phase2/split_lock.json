@@ -1,0 +1,23 @@
+{
+  "input_sha256": "34a903573d80aed79b58da9bc59a11e3764c2f7ada5ac030e99536b8efe50be0",
+  "split_plan_sha256": "cdf9cd4783046c9344200d3eca913cfcaecc6437e558c534a2c0458e28002356",
+  "feature_policy_sha256": "5484aad1f5e34afcd93c7a77ed91495f8cc5c32164a507851642bb13973571ca",
+  "frozen_before_baseline_fit_utc": "2026-09-06T09:27:12.829209+00:00",
+  "feature_columns": [
+    "customer_branch",
+    "customer_region",
+    "customer_state",
+    "pincode_tier",
+    "asset_variant",
+    "asset_model",
+    "asset_fuel_type",
+    "asset_cost_at_disbursal",
+    "months_since_agreement_at_seizure"
+  ],
+  "evaluated_role": "tuning",
+  "reserved_roles": [
+    "calibration",
+    "final_test"
+  ],
+  "baseline_min_count": 30
+}

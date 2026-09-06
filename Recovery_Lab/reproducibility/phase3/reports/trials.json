@@ -1,0 +1,158 @@
+[
+  {
+    "trial_id": "C1",
+    "depth": 4,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 3,
+    "tree_count": 595,
+    "best_iteration_zero_based": 594,
+    "fit_seconds": 53.033406199974706,
+    "n": 576,
+    "mae_inr": 5973.134949796693,
+    "rmse_inr": 8110.003692314375,
+    "mape_percent": 18.097411565382778,
+    "median_absolute_error_inr": 4359.415803138418,
+    "mean_signed_error_inr": 644.8789007393237,
+    "quantile_diagnostics": {
+      "pinball_loss_inr": {
+        "0.1": 1584.0816045789427,
+        "0.5": 2986.5674748983465,
+        "0.9": 1284.0517291839435
+      },
+      "raw_crossing_rows": 0,
+      "ordered_central_range_coverage": 0.7829861111111112,
+      "mean_range_width_inr": 19552.84012752553,
+      "calibrated": false
+    }
+  },
+  {
+    "trial_id": "C2",
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 3,
+    "tree_count": 474,
+    "best_iteration_zero_based": 473,
+    "fit_seconds": 64.85296069999458,
+    "n": 576,
+    "mae_inr": 5912.875790137224,
+    "rmse_inr": 8068.2384931518645,
+    "mape_percent": 17.912309668271586,
+    "median_absolute_error_inr": 4258.646305008919,
+    "mean_signed_error_inr": 735.5570015935169,
+    "quantile_diagnostics": {
+      "pinball_loss_inr": {
+        "0.1": 1582.022832374506,
+        "0.5": 2956.437895068612,
+        "0.9": 1267.479208348394
+      },
+      "raw_crossing_rows": 0,
+      "ordered_central_range_coverage": 0.7795138888888888,
+      "mean_range_width_inr": 18790.908978708467,
+      "calibrated": false
+    }
+  },
+  {
+    "trial_id": "C3",
+    "depth": 8,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 3,
+    "tree_count": 310,
+    "best_iteration_zero_based": 309,
+    "fit_seconds": 69.66090819999226,
+    "n": 576,
+    "mae_inr": 5914.359731864614,
+    "rmse_inr": 8098.7762364607415,
+    "mape_percent": 17.9403207783562,
+    "median_absolute_error_inr": 4258.387431990908,
+    "mean_signed_error_inr": 646.180796265003,
+    "quantile_diagnostics": {
+      "pinball_loss_inr": {
+        "0.1": 1614.2392609996248,
+        "0.5": 2957.179865932307,
+        "0.9": 1287.0745121647292
+      },
+      "raw_crossing_rows": 0,
+      "ordered_central_range_coverage": 0.7777777777777778,
+      "mean_range_width_inr": 18357.69649155595,
+      "calibrated": false
+    }
+  },
+  {
+    "trial_id": "C4",
+    "depth": 4,
+    "learning_rate": 0.1,
+    "l2_leaf_reg": 10,
+    "tree_count": 378,
+    "best_iteration_zero_based": 377,
+    "fit_seconds": 34.58225949999178,
+    "n": 576,
+    "mae_inr": 5966.699632655443,
+    "rmse_inr": 8152.397768780795,
+    "mape_percent": 18.022838188705823,
+    "median_absolute_error_inr": 4324.129196329832,
+    "mean_signed_error_inr": 787.0009052991928,
+    "quantile_diagnostics": {
+      "pinball_loss_inr": {
+        "0.1": 1607.8056808648955,
+        "0.5": 2983.3498163277213,
+        "0.9": 1287.3024333980748
+      },
+      "raw_crossing_rows": 0,
+      "ordered_central_range_coverage": 0.7899305555555556,
+      "mean_range_width_inr": 19708.40534938066,
+      "calibrated": false
+    }
+  },
+  {
+    "trial_id": "C5",
+    "depth": 6,
+    "learning_rate": 0.1,
+    "l2_leaf_reg": 10,
+    "tree_count": 245,
+    "best_iteration_zero_based": 244,
+    "fit_seconds": 40.97297659999458,
+    "n": 576,
+    "mae_inr": 5952.797798202425,
+    "rmse_inr": 8114.845171367515,
+    "mape_percent": 18.053821922500386,
+    "median_absolute_error_inr": 4219.2276562333445,
+    "mean_signed_error_inr": 744.25310005126,
+    "quantile_diagnostics": {
+      "pinball_loss_inr": {
+        "0.1": 1588.4302227907856,
+        "0.5": 2976.3988991012125,
+        "0.9": 1275.9068896520837
+      },
+      "raw_crossing_rows": 0,
+      "ordered_central_range_coverage": 0.7743055555555556,
+      "mean_range_width_inr": 18843.3037044125,
+      "calibrated": false
+    }
+  },
+  {
+    "trial_id": "C6",
+    "depth": 8,
+    "learning_rate": 0.1,
+    "l2_leaf_reg": 10,
+    "tree_count": 267,
+    "best_iteration_zero_based": 266,
+    "fit_seconds": 67.214255400002,
+    "n": 576,
+    "mae_inr": 5918.408434546309,
+    "rmse_inr": 8092.172402748331,
+    "mape_percent": 17.854787303178583,
+    "median_absolute_error_inr": 4250.081308011431,
+    "mean_signed_error_inr": 569.2766044387645,
+    "quantile_diagnostics": {
+      "pinball_loss_inr": {
+        "0.1": 1602.3351712441945,
+        "0.5": 2959.2042172731544,
+        "0.9": 1316.0411362448986
+      },
+      "raw_crossing_rows": 3,
+      "ordered_central_range_coverage": 0.765625,
+      "mean_range_width_inr": 17330.32312192511,
+      "calibrated": false
+    }
+  }
+]

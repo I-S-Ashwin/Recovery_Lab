@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "created_utc": "2026-09-06T09:18:53.129454+00:00",
+  "source_file": "Analytics Case Study Dataset.xlsx",
+  "source_sheet": "Sheet1",
+  "source_sha256": "4493003a4459a382ef33a22b2b95550bfbf4a7e6c557dc3242c1b8487ef7ed34",
+  "source_unchanged": true,
+  "source_records": 15000,
+  "retained_records": 15000,
+  "quarantined_records": 0,
+  "python_version": "3.12.14",
+  "packages": {
+    "pandas": "3.0.1",
+    "numpy": "2.3.5",
+    "openpyxl": "3.1.5"
+  },
+  "serialization": "JSON Lines UTF-8; ISO dates, numeric JSON values and explicit nulls",
+  "source_snapshot_note": "Cell values only; source workbook formatting not reproduced",
+  "audit_script_sha256": "668ba2084aedcbba8ce854e5facb1641f4794805f04423083e2b3e1b9a1d4d13",
+  "files": {
+    "configs/data_dictionary.json": "e122469349d42d1b01956fc3db0ad28d8461b04a99e092d18f0d6f9629ca8f94",
+    "configs/feature_policy.json": "5484aad1f5e34afcd93c7a77ed91495f8cc5c32164a507851642bb13973571ca",
+    "data/canonical_records.jsonl": "34a903573d80aed79b58da9bc59a11e3764c2f7ada5ac030e99536b8efe50be0",
+    "data/quarantined_records.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/source_values.jsonl": "e073b422d55876f9140f27d27f7ad18ccd87ad869e091e259f1fc1e05adee6ed",
+    "reports/column_profiles.json": "4e38a7c7b1f317798a87385e03deaf95625101ac2f6549dee5579987f305a397",
+    "reports/Data_Dictionary.md": "fe3df81e2818a956c5365befea27552270dcdd227c14d2dabc0043e27c2fea9f",
+    "reports/monthly_profile.json": "8ae7d9a4baca78b7215d0746233a3391199cc1adda8a2d2e9856dce9b8a42843",
+    "reports/Phase_1_Report.md": "f29f1c8023d285d61afb1cd683e8591227a9a2b3db03b5496a403cc863a88607",
+    "reports/quality_checks.json": "2018e266705c4de853b89c95e1d15985509c520fd2da6ddd543196c67c217af0",
+    "reports/row_issues.jsonl": "4e9a70a122ff1a8b25707640f19b439b01e4bb371c0297ecf1f1bbf27247e411",
+    "reports/segment_profile.json": "c21276800ae2dff5fa624119b0624886ac6f06216f095a5c3bbf1a89ade17bb6",
+    "reports/summary.json": "94fef0ac8fe9470a979c89f573165443345f19662413f59fb038e1a451f018c9"
+  }
+}

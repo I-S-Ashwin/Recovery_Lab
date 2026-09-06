@@ -1,0 +1,10 @@
+{
+  "source_files": {
+    "phase5/results/retrospective_recovery_risk.jsonl": "65f179a291d1a7d67ede2916df92e7ec54cf1f10d77aed27d568f5f957e8d5e7",
+    "phase4/data/calibration_predictions.jsonl": "be5e965d920302c264f0a2acc5fa09d136280740715477ad5fd74beb3e80056c",
+    "phase5/src/engine.py": "7623a33de074d7c191354832c03e084f0dd8e44a9a45f70a40f06e7f6085224d",
+    "phase1/data/canonical_records.jsonl": "34a903573d80aed79b58da9bc59a11e3764c2f7ada5ac030e99536b8efe50be0"
+  },
+  "final_test_used": false,
+  "training_performed": false
+}

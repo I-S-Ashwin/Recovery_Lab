@@ -1,0 +1,32 @@
+[
+  {
+    "assumed_label_delay_days": 0,
+    "counts": {
+      "train": 9767,
+      "tuning": 576,
+      "calibration": 583,
+      "final_test": 1244,
+      "excluded": 2830
+    }
+  },
+  {
+    "assumed_label_delay_days": 7,
+    "counts": {
+      "train": 9074,
+      "tuning": 95,
+      "calibration": 121,
+      "final_test": 742,
+      "excluded": 4968
+    }
+  },
+  {
+    "assumed_label_delay_days": 30,
+    "counts": {
+      "train": 8758,
+      "tuning": 0,
+      "calibration": 2,
+      "final_test": 549,
+      "excluded": 5691
+    }
+  }
+]

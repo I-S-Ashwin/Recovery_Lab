@@ -1,0 +1,4 @@
+# Tested with Python 3.12.14. Phase 1 only; modelling libraries belong to later phases.
+pandas==3.0.1
+numpy==2.3.5
+openpyxl==3.1.5

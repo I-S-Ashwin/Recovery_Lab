@@ -1,0 +1,16 @@
+{
+  "phase": 9,
+  "primary_final_cases": 1244,
+  "model_mae_inr": 7051.863755005328,
+  "baseline_mae_inr": 8342.911643380034,
+  "mae_reduction_percent": 15.474787982432144,
+  "calibrated_coverage": 0.8046623794212219,
+  "mean_interval_width_inr": 23145.883082799446,
+  "ev_final_cases": 36,
+  "ev_calibrated_coverage": 0.6111111111111112,
+  "verification_checks_passed": 115,
+  "model_changed": false,
+  "calibration_changed": false,
+  "final_outcomes_now_inspected": true,
+  "ready_for_production_underwriting": false
+}

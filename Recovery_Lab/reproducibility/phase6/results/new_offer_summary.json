@@ -1,0 +1,821 @@
+[
+  {
+    "asset_id": "DEMO-A",
+    "scenario": "base",
+    "status": "feasible_offer",
+    "feasible_candidates": 24,
+    "recommended_offer": {
+      "candidate_id": "L80.0_T18",
+      "ltv": 0.8,
+      "principal_inr": 80000.0,
+      "tenure_months": 18,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 5219.59,
+      "maximum_instalment_inr": 5219.66,
+      "total_contractual_interest_inr": 13952.69,
+      "foir": 0.3406553333333333,
+      "feasible": true,
+      "constraint_failures": [],
+      "selection_reasons": [
+        "Highest feasible principal in the configured grid",
+        "Lowest contractual interest among offers with that principal",
+        "Shorter tenure breaks remaining ties"
+      ],
+      "scheduled_payments": [
+        {
+          "month": 0,
+          "payment": 0.0,
+          "interest": 0.0,
+          "principal_paid": 0.0,
+          "balance": 80000.0
+        },
+        {
+          "month": 1,
+          "payment": 5219.59,
+          "interest": 1400.0,
+          "principal_paid": 3819.59,
+          "balance": 76180.41
+        },
+        {
+          "month": 2,
+          "payment": 5219.59,
+          "interest": 1333.16,
+          "principal_paid": 3886.43,
+          "balance": 72293.98
+        },
+        {
+          "month": 3,
+          "payment": 5219.59,
+          "interest": 1265.14,
+          "principal_paid": 3954.45,
+          "balance": 68339.53
+        },
+        {
+          "month": 4,
+          "payment": 5219.59,
+          "interest": 1195.94,
+          "principal_paid": 4023.65,
+          "balance": 64315.88
+        },
+        {
+          "month": 5,
+          "payment": 5219.59,
+          "interest": 1125.53,
+          "principal_paid": 4094.06,
+          "balance": 60221.82
+        },
+        {
+          "month": 6,
+          "payment": 5219.59,
+          "interest": 1053.88,
+          "principal_paid": 4165.71,
+          "balance": 56056.11
+        },
+        {
+          "month": 7,
+          "payment": 5219.59,
+          "interest": 980.98,
+          "principal_paid": 4238.61,
+          "balance": 51817.5
+        },
+        {
+          "month": 8,
+          "payment": 5219.59,
+          "interest": 906.81,
+          "principal_paid": 4312.78,
+          "balance": 47504.72
+        },
+        {
+          "month": 9,
+          "payment": 5219.59,
+          "interest": 831.33,
+          "principal_paid": 4388.26,
+          "balance": 43116.46
+        },
+        {
+          "month": 10,
+          "payment": 5219.59,
+          "interest": 754.54,
+          "principal_paid": 4465.05,
+          "balance": 38651.41
+        },
+        {
+          "month": 11,
+          "payment": 5219.59,
+          "interest": 676.4,
+          "principal_paid": 4543.19,
+          "balance": 34108.22
+        },
+        {
+          "month": 12,
+          "payment": 5219.59,
+          "interest": 596.89,
+          "principal_paid": 4622.7,
+          "balance": 29485.52
+        },
+        {
+          "month": 13,
+          "payment": 5219.59,
+          "interest": 516.0,
+          "principal_paid": 4703.59,
+          "balance": 24781.93
+        },
+        {
+          "month": 14,
+          "payment": 5219.59,
+          "interest": 433.68,
+          "principal_paid": 4785.91,
+          "balance": 19996.02
+        },
+        {
+          "month": 15,
+          "payment": 5219.59,
+          "interest": 349.93,
+          "principal_paid": 4869.66,
+          "balance": 15126.36
+        },
+        {
+          "month": 16,
+          "payment": 5219.59,
+          "interest": 264.71,
+          "principal_paid": 4954.88,
+          "balance": 10171.48
+        },
+        {
+          "month": 17,
+          "payment": 5219.59,
+          "interest": 178.0,
+          "principal_paid": 5041.59,
+          "balance": 5129.89
+        },
+        {
+          "month": 18,
+          "payment": 5219.66,
+          "interest": 89.77,
+          "principal_paid": 5129.89,
+          "balance": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "asset_id": "DEMO-B",
+    "scenario": "base",
+    "status": "feasible_offer",
+    "feasible_candidates": 20,
+    "recommended_offer": {
+      "candidate_id": "L75.00_T12",
+      "ltv": 0.75,
+      "principal_inr": 60000.0,
+      "tenure_months": 12,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 5586.83,
+      "maximum_instalment_inr": 5586.83,
+      "total_contractual_interest_inr": 7041.91,
+      "foir": 0.3834732,
+      "feasible": true,
+      "constraint_failures": [],
+      "selection_reasons": [
+        "Highest feasible principal in the configured grid",
+        "Lowest contractual interest among offers with that principal",
+        "Shorter tenure breaks remaining ties"
+      ],
+      "scheduled_payments": [
+        {
+          "month": 0,
+          "payment": 0.0,
+          "interest": 0.0,
+          "principal_paid": 0.0,
+          "balance": 60000.0
+        },
+        {
+          "month": 1,
+          "payment": 5586.83,
+          "interest": 1050.0,
+          "principal_paid": 4536.83,
+          "balance": 55463.17
+        },
+        {
+          "month": 2,
+          "payment": 5586.83,
+          "interest": 970.61,
+          "principal_paid": 4616.22,
+          "balance": 50846.95
+        },
+        {
+          "month": 3,
+          "payment": 5586.83,
+          "interest": 889.82,
+          "principal_paid": 4697.01,
+          "balance": 46149.94
+        },
+        {
+          "month": 4,
+          "payment": 5586.83,
+          "interest": 807.62,
+          "principal_paid": 4779.21,
+          "balance": 41370.73
+        },
+        {
+          "month": 5,
+          "payment": 5586.83,
+          "interest": 723.99,
+          "principal_paid": 4862.84,
+          "balance": 36507.89
+        },
+        {
+          "month": 6,
+          "payment": 5586.83,
+          "interest": 638.89,
+          "principal_paid": 4947.94,
+          "balance": 31559.95
+        },
+        {
+          "month": 7,
+          "payment": 5586.83,
+          "interest": 552.3,
+          "principal_paid": 5034.53,
+          "balance": 26525.42
+        },
+        {
+          "month": 8,
+          "payment": 5586.83,
+          "interest": 464.19,
+          "principal_paid": 5122.64,
+          "balance": 21402.78
+        },
+        {
+          "month": 9,
+          "payment": 5586.83,
+          "interest": 374.55,
+          "principal_paid": 5212.28,
+          "balance": 16190.5
+        },
+        {
+          "month": 10,
+          "payment": 5586.83,
+          "interest": 283.33,
+          "principal_paid": 5303.5,
+          "balance": 10887.0
+        },
+        {
+          "month": 11,
+          "payment": 5586.83,
+          "interest": 190.52,
+          "principal_paid": 5396.31,
+          "balance": 5490.69
+        },
+        {
+          "month": 12,
+          "payment": 5586.78,
+          "interest": 96.09,
+          "principal_paid": 5490.69,
+          "balance": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "asset_id": "DEMO-C",
+    "scenario": "base",
+    "status": "feasible_offer",
+    "feasible_candidates": 18,
+    "recommended_offer": {
+      "candidate_id": "L75.00_T18",
+      "ltv": 0.75,
+      "principal_inr": 105000.0,
+      "tenure_months": 18,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 6850.72,
+      "maximum_instalment_inr": 6850.72,
+      "total_contractual_interest_inr": 18312.87,
+      "foir": 0.346268,
+      "feasible": true,
+      "constraint_failures": [],
+      "selection_reasons": [
+        "Highest feasible principal in the configured grid",
+        "Lowest contractual interest among offers with that principal",
+        "Shorter tenure breaks remaining ties"
+      ],
+      "scheduled_payments": [
+        {
+          "month": 0,
+          "payment": 0.0,
+          "interest": 0.0,
+          "principal_paid": 0.0,
+          "balance": 105000.0
+        },
+        {
+          "month": 1,
+          "payment": 6850.72,
+          "interest": 1837.5,
+          "principal_paid": 5013.22,
+          "balance": 99986.78
+        },
+        {
+          "month": 2,
+          "payment": 6850.72,
+          "interest": 1749.77,
+          "principal_paid": 5100.95,
+          "balance": 94885.83
+        },
+        {
+          "month": 3,
+          "payment": 6850.72,
+          "interest": 1660.5,
+          "principal_paid": 5190.22,
+          "balance": 89695.61
+        },
+        {
+          "month": 4,
+          "payment": 6850.72,
+          "interest": 1569.67,
+          "principal_paid": 5281.05,
+          "balance": 84414.56
+        },
+        {
+          "month": 5,
+          "payment": 6850.72,
+          "interest": 1477.25,
+          "principal_paid": 5373.47,
+          "balance": 79041.09
+        },
+        {
+          "month": 6,
+          "payment": 6850.72,
+          "interest": 1383.22,
+          "principal_paid": 5467.5,
+          "balance": 73573.59
+        },
+        {
+          "month": 7,
+          "payment": 6850.72,
+          "interest": 1287.54,
+          "principal_paid": 5563.18,
+          "balance": 68010.41
+        },
+        {
+          "month": 8,
+          "payment": 6850.72,
+          "interest": 1190.18,
+          "principal_paid": 5660.54,
+          "balance": 62349.87
+        },
+        {
+          "month": 9,
+          "payment": 6850.72,
+          "interest": 1091.12,
+          "principal_paid": 5759.6,
+          "balance": 56590.27
+        },
+        {
+          "month": 10,
+          "payment": 6850.72,
+          "interest": 990.33,
+          "principal_paid": 5860.39,
+          "balance": 50729.88
+        },
+        {
+          "month": 11,
+          "payment": 6850.72,
+          "interest": 887.77,
+          "principal_paid": 5962.95,
+          "balance": 44766.93
+        },
+        {
+          "month": 12,
+          "payment": 6850.72,
+          "interest": 783.42,
+          "principal_paid": 6067.3,
+          "balance": 38699.63
+        },
+        {
+          "month": 13,
+          "payment": 6850.72,
+          "interest": 677.24,
+          "principal_paid": 6173.48,
+          "balance": 32526.15
+        },
+        {
+          "month": 14,
+          "payment": 6850.72,
+          "interest": 569.21,
+          "principal_paid": 6281.51,
+          "balance": 26244.64
+        },
+        {
+          "month": 15,
+          "payment": 6850.72,
+          "interest": 459.28,
+          "principal_paid": 6391.44,
+          "balance": 19853.2
+        },
+        {
+          "month": 16,
+          "payment": 6850.72,
+          "interest": 347.43,
+          "principal_paid": 6503.29,
+          "balance": 13349.91
+        },
+        {
+          "month": 17,
+          "payment": 6850.72,
+          "interest": 233.62,
+          "principal_paid": 6617.1,
+          "balance": 6732.81
+        },
+        {
+          "month": 18,
+          "payment": 6850.63,
+          "interest": 117.82,
+          "principal_paid": 6732.81,
+          "balance": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "asset_id": "DEMO-A",
+    "scenario": "adverse",
+    "status": "feasible_offer",
+    "feasible_candidates": 15,
+    "recommended_offer": {
+      "candidate_id": "L70.0_T12",
+      "ltv": 0.7,
+      "principal_inr": 70000.0,
+      "tenure_months": 12,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 6484.42,
+      "maximum_instalment_inr": 6484.42,
+      "total_contractual_interest_inr": 7813.0,
+      "foir": 0.382814,
+      "feasible": true,
+      "constraint_failures": [],
+      "selection_reasons": [
+        "Highest feasible principal in the configured grid",
+        "Lowest contractual interest among offers with that principal",
+        "Shorter tenure breaks remaining ties"
+      ],
+      "scheduled_payments": [
+        {
+          "month": 0,
+          "payment": 0.0,
+          "interest": 0.0,
+          "principal_paid": 0.0,
+          "balance": 70000.0
+        },
+        {
+          "month": 1,
+          "payment": 6484.42,
+          "interest": 1166.67,
+          "principal_paid": 5317.75,
+          "balance": 64682.25
+        },
+        {
+          "month": 2,
+          "payment": 6484.42,
+          "interest": 1078.04,
+          "principal_paid": 5406.38,
+          "balance": 59275.87
+        },
+        {
+          "month": 3,
+          "payment": 6484.42,
+          "interest": 987.93,
+          "principal_paid": 5496.49,
+          "balance": 53779.38
+        },
+        {
+          "month": 4,
+          "payment": 6484.42,
+          "interest": 896.32,
+          "principal_paid": 5588.1,
+          "balance": 48191.28
+        },
+        {
+          "month": 5,
+          "payment": 6484.42,
+          "interest": 803.19,
+          "principal_paid": 5681.23,
+          "balance": 42510.05
+        },
+        {
+          "month": 6,
+          "payment": 6484.42,
+          "interest": 708.5,
+          "principal_paid": 5775.92,
+          "balance": 36734.13
+        },
+        {
+          "month": 7,
+          "payment": 6484.42,
+          "interest": 612.24,
+          "principal_paid": 5872.18,
+          "balance": 30861.95
+        },
+        {
+          "month": 8,
+          "payment": 6484.42,
+          "interest": 514.37,
+          "principal_paid": 5970.05,
+          "balance": 24891.9
+        },
+        {
+          "month": 9,
+          "payment": 6484.42,
+          "interest": 414.87,
+          "principal_paid": 6069.55,
+          "balance": 18822.35
+        },
+        {
+          "month": 10,
+          "payment": 6484.42,
+          "interest": 313.71,
+          "principal_paid": 6170.71,
+          "balance": 12651.64
+        },
+        {
+          "month": 11,
+          "payment": 6484.42,
+          "interest": 210.86,
+          "principal_paid": 6273.56,
+          "balance": 6378.08
+        },
+        {
+          "month": 12,
+          "payment": 6484.38,
+          "interest": 106.3,
+          "principal_paid": 6378.08,
+          "balance": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "asset_id": "DEMO-B",
+    "scenario": "adverse",
+    "status": "feasible_offer",
+    "feasible_candidates": 10,
+    "recommended_offer": {
+      "candidate_id": "L65.00_T12",
+      "ltv": 0.65,
+      "principal_inr": 52000.0,
+      "tenure_months": 12,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 4816.99,
+      "maximum_instalment_inr": 4817.05,
+      "total_contractual_interest_inr": 5803.94,
+      "foir": 0.352682,
+      "feasible": true,
+      "constraint_failures": [],
+      "selection_reasons": [
+        "Highest feasible principal in the configured grid",
+        "Lowest contractual interest among offers with that principal",
+        "Shorter tenure breaks remaining ties"
+      ],
+      "scheduled_payments": [
+        {
+          "month": 0,
+          "payment": 0.0,
+          "interest": 0.0,
+          "principal_paid": 0.0,
+          "balance": 52000.0
+        },
+        {
+          "month": 1,
+          "payment": 4816.99,
+          "interest": 866.67,
+          "principal_paid": 3950.32,
+          "balance": 48049.68
+        },
+        {
+          "month": 2,
+          "payment": 4816.99,
+          "interest": 800.83,
+          "principal_paid": 4016.16,
+          "balance": 44033.52
+        },
+        {
+          "month": 3,
+          "payment": 4816.99,
+          "interest": 733.89,
+          "principal_paid": 4083.1,
+          "balance": 39950.42
+        },
+        {
+          "month": 4,
+          "payment": 4816.99,
+          "interest": 665.84,
+          "principal_paid": 4151.15,
+          "balance": 35799.27
+        },
+        {
+          "month": 5,
+          "payment": 4816.99,
+          "interest": 596.65,
+          "principal_paid": 4220.34,
+          "balance": 31578.93
+        },
+        {
+          "month": 6,
+          "payment": 4816.99,
+          "interest": 526.32,
+          "principal_paid": 4290.67,
+          "balance": 27288.26
+        },
+        {
+          "month": 7,
+          "payment": 4816.99,
+          "interest": 454.8,
+          "principal_paid": 4362.19,
+          "balance": 22926.07
+        },
+        {
+          "month": 8,
+          "payment": 4816.99,
+          "interest": 382.1,
+          "principal_paid": 4434.89,
+          "balance": 18491.18
+        },
+        {
+          "month": 9,
+          "payment": 4816.99,
+          "interest": 308.19,
+          "principal_paid": 4508.8,
+          "balance": 13982.38
+        },
+        {
+          "month": 10,
+          "payment": 4816.99,
+          "interest": 233.04,
+          "principal_paid": 4583.95,
+          "balance": 9398.43
+        },
+        {
+          "month": 11,
+          "payment": 4816.99,
+          "interest": 156.64,
+          "principal_paid": 4660.35,
+          "balance": 4738.08
+        },
+        {
+          "month": 12,
+          "payment": 4817.05,
+          "interest": 78.97,
+          "principal_paid": 4738.08,
+          "balance": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "asset_id": "DEMO-C",
+    "scenario": "adverse",
+    "status": "feasible_offer",
+    "feasible_candidates": 10,
+    "recommended_offer": {
+      "candidate_id": "L65.00_T12",
+      "ltv": 0.65,
+      "principal_inr": 91000.0,
+      "tenure_months": 12,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 8429.74,
+      "maximum_instalment_inr": 8429.75,
+      "total_contractual_interest_inr": 10156.89,
+      "foir": 0.38574375,
+      "feasible": true,
+      "constraint_failures": [],
+      "selection_reasons": [
+        "Highest feasible principal in the configured grid",
+        "Lowest contractual interest among offers with that principal",
+        "Shorter tenure breaks remaining ties"
+      ],
+      "scheduled_payments": [
+        {
+          "month": 0,
+          "payment": 0.0,
+          "interest": 0.0,
+          "principal_paid": 0.0,
+          "balance": 91000.0
+        },
+        {
+          "month": 1,
+          "payment": 8429.74,
+          "interest": 1516.67,
+          "principal_paid": 6913.07,
+          "balance": 84086.93
+        },
+        {
+          "month": 2,
+          "payment": 8429.74,
+          "interest": 1401.45,
+          "principal_paid": 7028.29,
+          "balance": 77058.64
+        },
+        {
+          "month": 3,
+          "payment": 8429.74,
+          "interest": 1284.31,
+          "principal_paid": 7145.43,
+          "balance": 69913.21
+        },
+        {
+          "month": 4,
+          "payment": 8429.74,
+          "interest": 1165.22,
+          "principal_paid": 7264.52,
+          "balance": 62648.69
+        },
+        {
+          "month": 5,
+          "payment": 8429.74,
+          "interest": 1044.14,
+          "principal_paid": 7385.6,
+          "balance": 55263.09
+        },
+        {
+          "month": 6,
+          "payment": 8429.74,
+          "interest": 921.05,
+          "principal_paid": 7508.69,
+          "balance": 47754.4
+        },
+        {
+          "month": 7,
+          "payment": 8429.74,
+          "interest": 795.91,
+          "principal_paid": 7633.83,
+          "balance": 40120.57
+        },
+        {
+          "month": 8,
+          "payment": 8429.74,
+          "interest": 668.68,
+          "principal_paid": 7761.06,
+          "balance": 32359.51
+        },
+        {
+          "month": 9,
+          "payment": 8429.74,
+          "interest": 539.33,
+          "principal_paid": 7890.41,
+          "balance": 24469.1
+        },
+        {
+          "month": 10,
+          "payment": 8429.74,
+          "interest": 407.82,
+          "principal_paid": 8021.92,
+          "balance": 16447.18
+        },
+        {
+          "month": 11,
+          "payment": 8429.74,
+          "interest": 274.12,
+          "principal_paid": 8155.62,
+          "balance": 8291.56
+        },
+        {
+          "month": 12,
+          "payment": 8429.75,
+          "interest": 138.19,
+          "principal_paid": 8291.56,
+          "balance": 0.0
+        }
+      ]
+    }
+  },
+  {
+    "asset_id": "DEMO-A",
+    "scenario": "severe",
+    "status": "no_feasible_offer",
+    "feasible_candidates": 0,
+    "recommended_offer": null
+  },
+  {
+    "asset_id": "DEMO-B",
+    "scenario": "severe",
+    "status": "no_feasible_offer",
+    "feasible_candidates": 0,
+    "recommended_offer": null
+  },
+  {
+    "asset_id": "DEMO-C",
+    "scenario": "severe",
+    "status": "no_feasible_offer",
+    "feasible_candidates": 0,
+    "recommended_offer": null
+  }
+]

@@ -1,0 +1,611 @@
+[
+  {
+    "rule": "missing:agreement_id",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:customer_age",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:customer_age",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:customer_gender",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:customer_cibil_score_raw",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:customer_cibil_score_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:customer_employment_code",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:customer_net_salary_raw",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:customer_net_salary_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:coborrower_flag",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:application_risk_band",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_date:agreement_date",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Unparseable date",
+    "threshold": null
+  },
+  {
+    "rule": "missing:agreement_date",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_date:seizure_date",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Unparseable date",
+    "threshold": null
+  },
+  {
+    "rule": "missing:seizure_date",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_date:sold_date",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Unparseable date",
+    "threshold": null
+  },
+  {
+    "rule": "missing:sold_date",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:tenure_months",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:tenure_months",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:customer_net_irr_raw",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:customer_net_irr_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:sold_month_raw",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:sold_month_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:sold_year_raw",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:sold_year_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:seizure_month_raw",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:seizure_month_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:seizure_year_raw",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:seizure_year_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:customer_branch",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:customer_region",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:customer_state",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:pincode_tier",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:rc_availability",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:registration_flag",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:asset_disc_flag",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:asset_alloy_flag",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:asset_variant",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:asset_model",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:asset_fuel_type",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:asset_cost_at_disbursal",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:asset_cost_at_disbursal",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:loan_amount",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:loan_amount",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:ltv",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:ltv",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:outstanding_balance_at_liquidation",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:outstanding_balance_at_liquidation",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:asset_age_months_at_seizure_raw",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:asset_age_months_at_seizure_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:months_spent_in_yard_raw",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:months_spent_in_yard_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:asset_body_condition",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:asset_tyre_condition",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:asset_general_condition",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:asset_engine_condition",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "missing:asset_accident_flag",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:traffic_challan_amount",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:traffic_challan_amount",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "invalid_number:sale_amount",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Non-numeric/non-finite value in numeric field",
+    "threshold": null
+  },
+  {
+    "rule": "missing:sale_amount",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Missing source value",
+    "threshold": null
+  },
+  {
+    "rule": "duplicate_agreement_id",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "All members retained in quarantine; no arbitrary winner",
+    "threshold": null
+  },
+  {
+    "rule": "agreement_after_seizure",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Invalid event chronology",
+    "threshold": null
+  },
+  {
+    "rule": "seizure_after_sale",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Invalid event chronology",
+    "threshold": null
+  },
+  {
+    "rule": "nonpositive:asset_cost_at_disbursal",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Valuation cost/target must be positive",
+    "threshold": null
+  },
+  {
+    "rule": "nonpositive:sale_amount",
+    "severity": "quarantine",
+    "affected_rows": 0,
+    "explanation": "Valuation cost/target must be positive",
+    "threshold": null
+  },
+  {
+    "rule": "negative:customer_net_salary_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Investigate recorded negative value; not auto-deleted",
+    "threshold": null
+  },
+  {
+    "rule": "negative:loan_amount",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Investigate recorded negative value; not auto-deleted",
+    "threshold": null
+  },
+  {
+    "rule": "negative:outstanding_balance_at_liquidation",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Investigate recorded negative value; not auto-deleted",
+    "threshold": null
+  },
+  {
+    "rule": "negative:traffic_challan_amount",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Investigate recorded negative value; not auto-deleted",
+    "threshold": null
+  },
+  {
+    "rule": "negative:asset_age_months_at_seizure_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Investigate recorded negative value; not auto-deleted",
+    "threshold": null
+  },
+  {
+    "rule": "negative:months_spent_in_yard_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Investigate recorded negative value; not auto-deleted",
+    "threshold": null
+  },
+  {
+    "rule": "nonpositive_tenure",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Cannot use for policy amortization",
+    "threshold": null
+  },
+  {
+    "rule": "ltv_outside_zero_one",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Confirm units/financed costs; not an automatic valuation exclusion",
+    "threshold": null
+  },
+  {
+    "rule": "cibil_negative_special_code",
+    "severity": "review",
+    "affected_rows": 8850,
+    "explanation": "Unresolved negative source code; usable score set null",
+    "threshold": null
+  },
+  {
+    "rule": "income_nonpositive",
+    "severity": "review",
+    "affected_rows": 39,
+    "explanation": "Affordability unavailable without verified positive income and frequency",
+    "threshold": null
+  },
+  {
+    "rule": "age_elapsed_mismatch",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Source age differs from 30-day agreement-to-seizure duration",
+    "threshold": 1e-08
+  },
+  {
+    "rule": "yard_duration_mismatch",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Source yard months differs from seizure-to-sale days / 30",
+    "threshold": 1e-08
+  },
+  {
+    "rule": "ltv_reconciliation_mismatch",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "LTV differs from loan amount / original cost",
+    "threshold": 1e-06
+  },
+  {
+    "rule": "calendar_mismatch:sold_month_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Redundant month differs from authoritative date",
+    "threshold": null
+  },
+  {
+    "rule": "calendar_mismatch:sold_year_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Redundant year differs from authoritative date",
+    "threshold": null
+  },
+  {
+    "rule": "calendar_mismatch:seizure_month_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Redundant month differs from authoritative date",
+    "threshold": null
+  },
+  {
+    "rule": "calendar_mismatch:seizure_year_raw",
+    "severity": "review",
+    "affected_rows": 0,
+    "explanation": "Redundant year differs from authoritative date",
+    "threshold": null
+  },
+  {
+    "rule": "yard_over_six_months",
+    "severity": "review",
+    "affected_rows": 22,
+    "explanation": "Operational investigation threshold only; genuine long delays retained",
+    "threshold": 6
+  },
+  {
+    "rule": "challan_exceeds_sale",
+    "severity": "review",
+    "affected_rows": 64,
+    "explanation": "Verify fine amount and recoverability; do not subtract automatically",
+    "threshold": null
+  },
+  {
+    "rule": "liquidation_balance_exceeds_loan",
+    "severity": "review",
+    "affected_rows": 2276,
+    "explanation": "Could include arrears/charges; confirm balance definition",
+    "threshold": null
+  },
+  {
+    "rule": "sale_exceeds_original_cost",
+    "severity": "review",
+    "affected_rows": 3,
+    "explanation": "Verify valid outcome; do not cap target",
+    "threshold": null
+  }
+]

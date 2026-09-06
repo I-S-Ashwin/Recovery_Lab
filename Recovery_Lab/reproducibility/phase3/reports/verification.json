@@ -1,0 +1,251 @@
+{
+  "status": "passed",
+  "check_count": 61,
+  "checks": [
+    {
+      "check": "Phase 1 canonical data unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Search plan unchanged since training began",
+      "result": "passed"
+    },
+    {
+      "check": "Training source hash train.py",
+      "result": "passed"
+    },
+    {
+      "check": "Training source hash valuation.py",
+      "result": "passed"
+    },
+    {
+      "check": "Saved model hash",
+      "result": "passed"
+    },
+    {
+      "check": "Exactly six predeclared trials",
+      "result": "passed"
+    },
+    {
+      "check": "Winner minimizes declared operational median MAE",
+      "result": "passed"
+    },
+    {
+      "check": "No calibration/final-test result claimed",
+      "result": "passed"
+    },
+    {
+      "check": "Fit IDs exactly frozen operational training",
+      "result": "passed"
+    },
+    {
+      "check": "Selection IDs exactly frozen operational tuning",
+      "result": "passed"
+    },
+    {
+      "check": "No reserved IDs used for fitting or selection",
+      "result": "passed"
+    },
+    {
+      "check": "Fit and selection IDs disjoint",
+      "result": "passed"
+    },
+    {
+      "check": "Training labels before Jan 1",
+      "result": "passed"
+    },
+    {
+      "check": "Selection labels before Mar 1",
+      "result": "passed"
+    },
+    {
+      "check": "Saved tree count equals selected trial",
+      "result": "passed"
+    },
+    {
+      "check": "Saved seed fixed",
+      "result": "passed"
+    },
+    {
+      "check": "Saved depth equals selected trial",
+      "result": "passed"
+    },
+    {
+      "check": "Exactly nine permitted model features",
+      "result": "passed"
+    },
+    {
+      "check": "operational split unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "operational only tuning predictions exported",
+      "result": "passed"
+    },
+    {
+      "check": "operational actual sale matches source tuning label",
+      "result": "passed"
+    },
+    {
+      "check": "operational native saved model reproduces every output",
+      "result": "passed"
+    },
+    {
+      "check": "operational postprocessing matches raw outputs",
+      "result": "passed"
+    },
+    {
+      "check": "operational finite ordered nonnegative predictions",
+      "result": "passed"
+    },
+    {
+      "check": "operational independent MAE",
+      "result": "passed"
+    },
+    {
+      "check": "operational independent RMSE",
+      "result": "passed"
+    },
+    {
+      "check": "operational independent median absolute error",
+      "result": "passed"
+    },
+    {
+      "check": "operational baseline predictions unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "operational independent quantile loss 0.1",
+      "result": "passed"
+    },
+    {
+      "check": "operational independent quantile loss 0.5",
+      "result": "passed"
+    },
+    {
+      "check": "operational independent quantile loss 0.9",
+      "result": "passed"
+    },
+    {
+      "check": "operational independent uncalibrated range coverage",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective split unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective only tuning predictions exported",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective actual sale matches source tuning label",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective native saved model reproduces every output",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective postprocessing matches raw outputs",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective finite ordered nonnegative predictions",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective independent MAE",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective independent RMSE",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective independent median absolute error",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective baseline predictions unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective independent quantile loss 0.1",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective independent quantile loss 0.5",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective independent quantile loss 0.9",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective independent uncalibrated range coverage",
+      "result": "passed"
+    },
+    {
+      "check": "Reject future/forbidden predictor sale_amount",
+      "result": "passed"
+    },
+    {
+      "check": "Reject future/forbidden predictor sold_date",
+      "result": "passed"
+    },
+    {
+      "check": "Reject future/forbidden predictor outstanding_balance_at_liquidation",
+      "result": "passed"
+    },
+    {
+      "check": "Reject future/forbidden predictor realized_yard_days",
+      "result": "passed"
+    },
+    {
+      "check": "Reject future/forbidden predictor asset_body_condition",
+      "result": "passed"
+    },
+    {
+      "check": "Reject future/forbidden predictor agreement_id",
+      "result": "passed"
+    },
+    {
+      "check": "Reject missing required feature",
+      "result": "passed"
+    },
+    {
+      "check": "Reject invalid numeric asset_cost_at_disbursal 0",
+      "result": "passed"
+    },
+    {
+      "check": "Reject invalid numeric months_since_agreement_at_seizure -1",
+      "result": "passed"
+    },
+    {
+      "check": "Reject invalid numeric asset_cost_at_disbursal nan",
+      "result": "passed"
+    },
+    {
+      "check": "Unknown category yields finite supported numeric output",
+      "result": "passed"
+    },
+    {
+      "check": "Missing category has deterministic token",
+      "result": "passed"
+    },
+    {
+      "check": "Crossing correction independent example",
+      "result": "passed"
+    },
+    {
+      "check": "Calibration still not performed",
+      "result": "passed"
+    },
+    {
+      "check": "Canonical source hash remains unchanged",
+      "result": "passed"
+    }
+  ],
+  "calibration_or_final_test_scored": false
+}

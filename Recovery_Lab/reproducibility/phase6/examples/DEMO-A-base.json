@@ -1,0 +1,186 @@
+{
+  "asset_reference_cost_inr": 100000,
+  "verified_monthly_income_inr": 30000,
+  "existing_monthly_obligations_inr": 5000,
+  "request_id": "DEMO-A-base",
+  "income_verified": true,
+  "obligations_verified": true,
+  "recovery_cost_inr": 3000,
+  "recovery_delay_months": 0,
+  "value_path_kind": "explicit_assumptions",
+  "assumption_source": "Fictional portfolio and phase6-demo-v1 factors; verification flags assumed",
+  "downside_value_path": [
+    {
+      "month": 0,
+      "value_inr": 70000.0
+    },
+    {
+      "month": 1,
+      "value_inr": 68833.33
+    },
+    {
+      "month": 2,
+      "value_inr": 67666.67
+    },
+    {
+      "month": 3,
+      "value_inr": 66500.0
+    },
+    {
+      "month": 4,
+      "value_inr": 65333.33
+    },
+    {
+      "month": 5,
+      "value_inr": 64166.67
+    },
+    {
+      "month": 6,
+      "value_inr": 63000.0
+    },
+    {
+      "month": 7,
+      "value_inr": 61833.33
+    },
+    {
+      "month": 8,
+      "value_inr": 60666.67
+    },
+    {
+      "month": 9,
+      "value_inr": 59500.0
+    },
+    {
+      "month": 10,
+      "value_inr": 58333.33
+    },
+    {
+      "month": 11,
+      "value_inr": 57166.67
+    },
+    {
+      "month": 12,
+      "value_inr": 56000.0
+    },
+    {
+      "month": 13,
+      "value_inr": 55125.0
+    },
+    {
+      "month": 14,
+      "value_inr": 54250.0
+    },
+    {
+      "month": 15,
+      "value_inr": 53375.0
+    },
+    {
+      "month": 16,
+      "value_inr": 52500.0
+    },
+    {
+      "month": 17,
+      "value_inr": 51625.0
+    },
+    {
+      "month": 18,
+      "value_inr": 50750.0
+    },
+    {
+      "month": 19,
+      "value_inr": 49875.0
+    },
+    {
+      "month": 20,
+      "value_inr": 49000.0
+    },
+    {
+      "month": 21,
+      "value_inr": 48125.0
+    },
+    {
+      "month": 22,
+      "value_inr": 47250.0
+    },
+    {
+      "month": 23,
+      "value_inr": 46375.0
+    },
+    {
+      "month": 24,
+      "value_inr": 45500.0
+    },
+    {
+      "month": 25,
+      "value_inr": 44625.0
+    },
+    {
+      "month": 26,
+      "value_inr": 43750.0
+    },
+    {
+      "month": 27,
+      "value_inr": 42875.0
+    },
+    {
+      "month": 28,
+      "value_inr": 42000.0
+    },
+    {
+      "month": 29,
+      "value_inr": 41125.0
+    },
+    {
+      "month": 30,
+      "value_inr": 40250.0
+    },
+    {
+      "month": 31,
+      "value_inr": 39375.0
+    },
+    {
+      "month": 32,
+      "value_inr": 38500.0
+    },
+    {
+      "month": 33,
+      "value_inr": 37625.0
+    },
+    {
+      "month": 34,
+      "value_inr": 36750.0
+    },
+    {
+      "month": 35,
+      "value_inr": 35875.0
+    },
+    {
+      "month": 36,
+      "value_inr": 35000.0
+    },
+    {
+      "month": 37,
+      "value_inr": 34416.67
+    },
+    {
+      "month": 38,
+      "value_inr": 33833.33
+    },
+    {
+      "month": 39,
+      "value_inr": 33250.0
+    },
+    {
+      "month": 40,
+      "value_inr": 32666.67
+    },
+    {
+      "month": 41,
+      "value_inr": 32083.33
+    },
+    {
+      "month": 42,
+      "value_inr": 31500.0
+    }
+  ]
+}

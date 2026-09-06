@@ -1,0 +1,308 @@
+{
+  "status": "passed",
+  "check_count": 75,
+  "checks": [
+    {
+      "check": "Phase 1 data unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Phase 4 predictions unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Policy fixed and versioned",
+      "result": "passed"
+    },
+    {
+      "check": "Code hash engine.py",
+      "result": "passed"
+    },
+    {
+      "check": "Code hash run_phase5.py",
+      "result": "passed"
+    },
+    {
+      "check": "Zero-interest exact final adjustment",
+      "result": "passed"
+    },
+    {
+      "check": "Zero-interest total payments",
+      "result": "passed"
+    },
+    {
+      "check": "One-month independent interest example",
+      "result": "passed"
+    },
+    {
+      "check": "EMI matches numerical cash-flow root 12 months",
+      "result": "passed"
+    },
+    {
+      "check": "Principal reconciles to cents 12 months",
+      "result": "passed"
+    },
+    {
+      "check": "Payments reconcile 12 months",
+      "result": "passed"
+    },
+    {
+      "check": "Balances nonnegative and ending zero 12 months",
+      "result": "passed"
+    },
+    {
+      "check": "EMI matches numerical cash-flow root 18 months",
+      "result": "passed"
+    },
+    {
+      "check": "Principal reconciles to cents 18 months",
+      "result": "passed"
+    },
+    {
+      "check": "Payments reconcile 18 months",
+      "result": "passed"
+    },
+    {
+      "check": "Balances nonnegative and ending zero 18 months",
+      "result": "passed"
+    },
+    {
+      "check": "EMI matches numerical cash-flow root 36 months",
+      "result": "passed"
+    },
+    {
+      "check": "Principal reconciles to cents 36 months",
+      "result": "passed"
+    },
+    {
+      "check": "Payments reconcile 36 months",
+      "result": "passed"
+    },
+    {
+      "check": "Balances nonnegative and ending zero 36 months",
+      "result": "passed"
+    },
+    {
+      "check": "Reject negative principal",
+      "result": "passed"
+    },
+    {
+      "check": "Reject percent rate mistakenly supplied as 21",
+      "result": "passed"
+    },
+    {
+      "check": "Reject zero tenure",
+      "result": "passed"
+    },
+    {
+      "check": "Reject fractional tenure",
+      "result": "passed"
+    },
+    {
+      "check": "Reject NaN principal",
+      "result": "passed"
+    },
+    {
+      "check": "Independent recovery shortfall example",
+      "result": "passed"
+    },
+    {
+      "check": "Risk score and band example",
+      "result": "passed"
+    },
+    {
+      "check": "Zero exposure has no score",
+      "result": "passed"
+    },
+    {
+      "check": "Half-up risk band boundary 75",
+      "result": "passed"
+    },
+    {
+      "check": "Half-up risk band boundary 74.5",
+      "result": "passed"
+    },
+    {
+      "check": "Half-up risk band boundary 50",
+      "result": "passed"
+    },
+    {
+      "check": "Half-up risk band boundary 49.5",
+      "result": "passed"
+    },
+    {
+      "check": "Half-up risk band boundary 25",
+      "result": "passed"
+    },
+    {
+      "check": "Half-up risk band boundary 24.5",
+      "result": "passed"
+    },
+    {
+      "check": "Half-up risk band boundary 0",
+      "result": "passed"
+    },
+    {
+      "check": "Recovery costs cannot make negative net recovery",
+      "result": "passed"
+    },
+    {
+      "check": "Higher costs do not reduce risk",
+      "result": "passed"
+    },
+    {
+      "check": "Lower proceeds do not reduce risk",
+      "result": "passed"
+    },
+    {
+      "check": "Missing recovery cost not silently zero",
+      "result": "passed"
+    },
+    {
+      "check": "Crossed valuation inputs rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Exactly 35 unique candidates",
+      "result": "passed"
+    },
+    {
+      "check": "Base example selects declared expected offer",
+      "result": "passed"
+    },
+    {
+      "check": "Base pricing components match nominal rate",
+      "result": "passed"
+    },
+    {
+      "check": "Every candidate belongs to configured grid",
+      "result": "passed"
+    },
+    {
+      "check": "Every feasibility flag agrees with reasons",
+      "result": "passed"
+    },
+    {
+      "check": "Every checkpoint reconciles to schedule",
+      "result": "passed"
+    },
+    {
+      "check": "Every feasible offer satisfies independent affordability and downside checks",
+      "result": "passed"
+    },
+    {
+      "check": "Winner follows explicit ranking",
+      "result": "passed"
+    },
+    {
+      "check": "Initial exposure evaluated before maturity",
+      "result": "passed"
+    },
+    {
+      "check": "High LTV not falsely safe because maturity balance is zero",
+      "result": "passed"
+    },
+    {
+      "check": "low_income expected handling",
+      "result": "passed"
+    },
+    {
+      "check": "low_income reproduces saved result",
+      "result": "passed"
+    },
+    {
+      "check": "missing_obligations expected handling",
+      "result": "passed"
+    },
+    {
+      "check": "missing_obligations reproduces saved result",
+      "result": "passed"
+    },
+    {
+      "check": "low_recovery expected handling",
+      "result": "passed"
+    },
+    {
+      "check": "low_recovery reproduces saved result",
+      "result": "passed"
+    },
+    {
+      "check": "missing_path expected handling",
+      "result": "passed"
+    },
+    {
+      "check": "missing_path reproduces saved result",
+      "result": "passed"
+    },
+    {
+      "check": "recovery_delay expected handling",
+      "result": "passed"
+    },
+    {
+      "check": "recovery_delay reproduces saved result",
+      "result": "passed"
+    },
+    {
+      "check": "Unverified income never passes affordability",
+      "result": "passed"
+    },
+    {
+      "check": "Negative obligations rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Duplicate path months rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Unsupported future coverage claim rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Exact 20 percent downside threshold accepted",
+      "result": "passed"
+    },
+    {
+      "check": "Tiny threshold excess rejected before score rounding",
+      "result": "passed"
+    },
+    {
+      "check": "Delay shifts sale lookup and freezes principal",
+      "result": "passed"
+    },
+    {
+      "check": "Equal delayed path assumptions preserve financial decision",
+      "result": "passed"
+    },
+    {
+      "check": "Default month 6 with delay does not use month 8 balance",
+      "result": "passed"
+    },
+    {
+      "check": "LTV percentage unit mistake rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Unpriced grid rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Risk bridge uses exactly the 583 consumed calibration cases",
+      "result": "passed"
+    },
+    {
+      "check": "All retrospective risk rows reproduce source-linked arithmetic",
+      "result": "passed"
+    },
+    {
+      "check": "No actual approval in any candidate response",
+      "result": "passed"
+    },
+    {
+      "check": "Phase 4 predictions still unchanged",
+      "result": "passed"
+    }
+  ],
+  "actual_borrower_approvals": 0,
+  "final_test_scored": false
+}

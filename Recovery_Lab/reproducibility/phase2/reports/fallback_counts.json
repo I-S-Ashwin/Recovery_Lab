@@ -1,0 +1,10 @@
+{
+  "operational": {
+    "model_duration": 551,
+    "model": 25
+  },
+  "retrospective": {
+    "model_duration": 1819,
+    "model": 60
+  }
+}

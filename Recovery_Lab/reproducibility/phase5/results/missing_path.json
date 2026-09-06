@@ -1,0 +1,1623 @@
+{
+  "request_id": "DEMO-MISSING-PATH",
+  "policy_id": "TVS-POC-DEMO-001",
+  "policy_sha256": "f5d9f1b0454924a60d203ddb4158012fb69fa9d62c0fbcf61e6946b80ce846d6",
+  "request_sha256": "3b1a3d328b4b0c61aecafee43c623a9230688720261568501d1f1740f04e224f",
+  "evidence_type": "policy_simulation",
+  "automatic_approval": false,
+  "policy_status": "Demonstration assumptions only; not TVS Credit underwriting policy",
+  "status": "no_feasible_offer",
+  "reasons": [
+    "No candidate meets all supplied policy and value-support constraints"
+  ],
+  "recommended_offer": null,
+  "candidates": [
+    {
+      "candidate_id": "L60.0_T12",
+      "ltv": 0.6,
+      "principal_inr": 60000.0,
+      "tenure_months": 12,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 5558.07,
+      "maximum_instalment_inr": 5558.09,
+      "total_contractual_interest_inr": 6696.86,
+      "foir": 0.35193633333333335,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 60000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 60000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 0.0,
+          "median_shortfall_inr": 0.0,
+          "downside_shortfall_ratio": 0.0,
+          "policy_risk_score": 0,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 12,
+          "sale_month": 12,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L60.0_T18",
+      "ltv": 0.6,
+      "principal_inr": 60000.0,
+      "tenure_months": 18,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 3885.79,
+      "maximum_instalment_inr": 3885.84,
+      "total_contractual_interest_inr": 9944.27,
+      "foir": 0.29619466666666666,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 60000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 60000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 0.0,
+          "median_shortfall_inr": 0.0,
+          "downside_shortfall_ratio": 0.0,
+          "policy_risk_score": 0,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 18,
+          "sale_month": 18,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L60.0_T24",
+      "ltv": 0.6,
+      "principal_inr": 60000.0,
+      "tenure_months": 24,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 3053.75,
+      "maximum_instalment_inr": 3053.75,
+      "total_contractual_interest_inr": 13289.93,
+      "foir": 0.26845833333333335,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 60000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 60000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 0.0,
+          "median_shortfall_inr": 0.0,
+          "downside_shortfall_ratio": 0.0,
+          "policy_risk_score": 0,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 24,
+          "sale_month": 24,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L60.0_T30",
+      "ltv": 0.6,
+      "principal_inr": 60000.0,
+      "tenure_months": 30,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 2557.78,
+      "maximum_instalment_inr": 2557.78,
+      "total_contractual_interest_inr": 16733.27,
+      "foir": 0.251926,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 60000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 60000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 0.0,
+          "median_shortfall_inr": 0.0,
+          "downside_shortfall_ratio": 0.0,
+          "policy_risk_score": 0,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 30,
+          "sale_month": 30,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L60.0_T36",
+      "ltv": 0.6,
+      "principal_inr": 60000.0,
+      "tenure_months": 36,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 2229.82,
+      "maximum_instalment_inr": 2229.82,
+      "total_contractual_interest_inr": 20273.27,
+      "foir": 0.240994,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_30",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 60000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 60000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 0.0,
+          "median_shortfall_inr": 0.0,
+          "downside_shortfall_ratio": 0.0,
+          "policy_risk_score": 0,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 36,
+          "sale_month": 36,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L65.00_T12",
+      "ltv": 0.65,
+      "principal_inr": 65000.0,
+      "tenure_months": 12,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 6021.24,
+      "maximum_instalment_inr": 6021.26,
+      "total_contractual_interest_inr": 7254.9,
+      "foir": 0.36737533333333333,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 65000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 65000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 0.0,
+          "median_shortfall_inr": 0.0,
+          "downside_shortfall_ratio": 0.0,
+          "policy_risk_score": 0,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 12,
+          "sale_month": 12,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L65.00_T18",
+      "ltv": 0.65,
+      "principal_inr": 65000.0,
+      "tenure_months": 18,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 4209.61,
+      "maximum_instalment_inr": 4209.61,
+      "total_contractual_interest_inr": 10772.95,
+      "foir": 0.306987,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 65000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 65000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 0.0,
+          "median_shortfall_inr": 0.0,
+          "downside_shortfall_ratio": 0.0,
+          "policy_risk_score": 0,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 18,
+          "sale_month": 18,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L65.00_T24",
+      "ltv": 0.65,
+      "principal_inr": 65000.0,
+      "tenure_months": 24,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 3308.23,
+      "maximum_instalment_inr": 3308.23,
+      "total_contractual_interest_inr": 14397.43,
+      "foir": 0.276941,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 65000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 65000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 0.0,
+          "median_shortfall_inr": 0.0,
+          "downside_shortfall_ratio": 0.0,
+          "policy_risk_score": 0,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 24,
+          "sale_month": 24,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L65.00_T30",
+      "ltv": 0.65,
+      "principal_inr": 65000.0,
+      "tenure_months": 30,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 2770.92,
+      "maximum_instalment_inr": 2771.06,
+      "total_contractual_interest_inr": 18127.74,
+      "foir": 0.25903533333333334,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 65000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 65000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 0.0,
+          "median_shortfall_inr": 0.0,
+          "downside_shortfall_ratio": 0.0,
+          "policy_risk_score": 0,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 30,
+          "sale_month": 30,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L65.00_T36",
+      "ltv": 0.65,
+      "principal_inr": 65000.0,
+      "tenure_months": 36,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 2415.63,
+      "maximum_instalment_inr": 2415.78,
+      "total_contractual_interest_inr": 21962.83,
+      "foir": 0.24719266666666667,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_30",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 65000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 65000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 0.0,
+          "median_shortfall_inr": 0.0,
+          "downside_shortfall_ratio": 0.0,
+          "policy_risk_score": 0,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 36,
+          "sale_month": 36,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L70.0_T12",
+      "ltv": 0.7,
+      "principal_inr": 70000.0,
+      "tenure_months": 12,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 6484.42,
+      "maximum_instalment_inr": 6484.42,
+      "total_contractual_interest_inr": 7813.0,
+      "foir": 0.382814,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 70000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 70000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 3000.0,
+          "median_shortfall_inr": 3000.0,
+          "downside_shortfall_ratio": 0.04285714285714286,
+          "policy_risk_score": 4,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 12,
+          "sale_month": 12,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L70.0_T18",
+      "ltv": 0.7,
+      "principal_inr": 70000.0,
+      "tenure_months": 18,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 4533.42,
+      "maximum_instalment_inr": 4533.49,
+      "total_contractual_interest_inr": 11601.63,
+      "foir": 0.317783,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 70000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 70000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 3000.0,
+          "median_shortfall_inr": 3000.0,
+          "downside_shortfall_ratio": 0.04285714285714286,
+          "policy_risk_score": 4,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 18,
+          "sale_month": 18,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L70.0_T24",
+      "ltv": 0.7,
+      "principal_inr": 70000.0,
+      "tenure_months": 24,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 3562.71,
+      "maximum_instalment_inr": 3562.71,
+      "total_contractual_interest_inr": 15504.91,
+      "foir": 0.2854236666666667,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 70000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 70000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 3000.0,
+          "median_shortfall_inr": 3000.0,
+          "downside_shortfall_ratio": 0.04285714285714286,
+          "policy_risk_score": 4,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 24,
+          "sale_month": 24,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L70.0_T30",
+      "ltv": 0.7,
+      "principal_inr": 70000.0,
+      "tenure_months": 30,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 2984.07,
+      "maximum_instalment_inr": 2984.14,
+      "total_contractual_interest_inr": 19522.17,
+      "foir": 0.266138,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 70000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 70000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 3000.0,
+          "median_shortfall_inr": 3000.0,
+          "downside_shortfall_ratio": 0.04285714285714286,
+          "policy_risk_score": 4,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 30,
+          "sale_month": 30,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L70.0_T36",
+      "ltv": 0.7,
+      "principal_inr": 70000.0,
+      "tenure_months": 36,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.02,
+      "annual_nominal_rate": 0.2,
+      "emi_inr": 2601.45,
+      "maximum_instalment_inr": 2601.48,
+      "total_contractual_interest_inr": 23652.23,
+      "foir": 0.25338266666666664,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_30",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 70000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 70000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 3000.0,
+          "median_shortfall_inr": 3000.0,
+          "downside_shortfall_ratio": 0.04285714285714286,
+          "policy_risk_score": 4,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 36,
+          "sale_month": 36,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L75.00_T12",
+      "ltv": 0.75,
+      "principal_inr": 75000.0,
+      "tenure_months": 12,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 6983.53,
+      "maximum_instalment_inr": 6983.57,
+      "total_contractual_interest_inr": 8802.4,
+      "foir": 0.39945233333333335,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 75000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 75000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 8000.0,
+          "median_shortfall_inr": 8000.0,
+          "downside_shortfall_ratio": 0.10666666666666667,
+          "policy_risk_score": 11,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 12,
+          "sale_month": 12,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L75.00_T18",
+      "ltv": 0.75,
+      "principal_inr": 75000.0,
+      "tenure_months": 18,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 4893.37,
+      "maximum_instalment_inr": 4893.37,
+      "total_contractual_interest_inr": 13080.64,
+      "foir": 0.329779,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 75000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 75000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 8000.0,
+          "median_shortfall_inr": 8000.0,
+          "downside_shortfall_ratio": 0.10666666666666667,
+          "policy_risk_score": 11,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 18,
+          "sale_month": 18,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L75.00_T24",
+      "ltv": 0.75,
+      "principal_inr": 75000.0,
+      "tenure_months": 24,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 3853.92,
+      "maximum_instalment_inr": 3854.05,
+      "total_contractual_interest_inr": 17494.21,
+      "foir": 0.295135,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 75000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 75000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 8000.0,
+          "median_shortfall_inr": 8000.0,
+          "downside_shortfall_ratio": 0.10666666666666667,
+          "policy_risk_score": 11,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 24,
+          "sale_month": 24,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L75.00_T30",
+      "ltv": 0.75,
+      "principal_inr": 75000.0,
+      "tenure_months": 30,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 3234.73,
+      "maximum_instalment_inr": 3234.77,
+      "total_contractual_interest_inr": 22041.94,
+      "foir": 0.27449233333333334,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 75000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 75000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 8000.0,
+          "median_shortfall_inr": 8000.0,
+          "downside_shortfall_ratio": 0.10666666666666667,
+          "policy_risk_score": 11,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 30,
+          "sale_month": 30,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L75.00_T36",
+      "ltv": 0.75,
+      "principal_inr": 75000.0,
+      "tenure_months": 36,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 2825.63,
+      "maximum_instalment_inr": 2825.68,
+      "total_contractual_interest_inr": 26722.73,
+      "foir": 0.260856,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_30",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 75000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 75000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 8000.0,
+          "median_shortfall_inr": 8000.0,
+          "downside_shortfall_ratio": 0.10666666666666667,
+          "policy_risk_score": 11,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 36,
+          "sale_month": 36,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L80.0_T12",
+      "ltv": 0.8,
+      "principal_inr": 80000.0,
+      "tenure_months": 12,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 7449.1,
+      "maximum_instalment_inr": 7449.13,
+      "total_contractual_interest_inr": 9389.23,
+      "foir": 0.414971,
+      "feasible": false,
+      "constraint_failures": [
+        "affordability_limit",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 80000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 80000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 13000.0,
+          "median_shortfall_inr": 13000.0,
+          "downside_shortfall_ratio": 0.1625,
+          "policy_risk_score": 16,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 12,
+          "sale_month": 12,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L80.0_T18",
+      "ltv": 0.8,
+      "principal_inr": 80000.0,
+      "tenure_months": 18,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 5219.59,
+      "maximum_instalment_inr": 5219.66,
+      "total_contractual_interest_inr": 13952.69,
+      "foir": 0.3406553333333333,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 80000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 80000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 13000.0,
+          "median_shortfall_inr": 13000.0,
+          "downside_shortfall_ratio": 0.1625,
+          "policy_risk_score": 16,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 18,
+          "sale_month": 18,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L80.0_T24",
+      "ltv": 0.8,
+      "principal_inr": 80000.0,
+      "tenure_months": 24,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 4110.85,
+      "maximum_instalment_inr": 4110.89,
+      "total_contractual_interest_inr": 18660.44,
+      "foir": 0.30369633333333335,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 80000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 80000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 13000.0,
+          "median_shortfall_inr": 13000.0,
+          "downside_shortfall_ratio": 0.1625,
+          "policy_risk_score": 16,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 24,
+          "sale_month": 24,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L80.0_T30",
+      "ltv": 0.8,
+      "principal_inr": 80000.0,
+      "tenure_months": 30,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 3450.38,
+      "maximum_instalment_inr": 3450.41,
+      "total_contractual_interest_inr": 23511.43,
+      "foir": 0.2816803333333333,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 80000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 80000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 13000.0,
+          "median_shortfall_inr": 13000.0,
+          "downside_shortfall_ratio": 0.1625,
+          "policy_risk_score": 16,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 30,
+          "sale_month": 30,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L80.0_T36",
+      "ltv": 0.8,
+      "principal_inr": 80000.0,
+      "tenure_months": 36,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.03,
+      "annual_nominal_rate": 0.21,
+      "emi_inr": 3014.01,
+      "maximum_instalment_inr": 3014.01,
+      "total_contractual_interest_inr": 28504.09,
+      "foir": 0.26713366666666666,
+      "feasible": false,
+      "constraint_failures": [
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_30",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 80000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 80000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 13000.0,
+          "median_shortfall_inr": 13000.0,
+          "downside_shortfall_ratio": 0.1625,
+          "policy_risk_score": 16,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 36,
+          "sale_month": 36,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L85.00_T12",
+      "ltv": 0.85,
+      "principal_inr": 85000.0,
+      "tenure_months": 12,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.05,
+      "annual_nominal_rate": 0.23,
+      "emi_inr": 7996.49,
+      "maximum_instalment_inr": 7996.49,
+      "total_contractual_interest_inr": 10957.85,
+      "foir": 0.4332163333333333,
+      "feasible": false,
+      "constraint_failures": [
+        "affordability_limit",
+        "downside_limit_month_0",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 85000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 85000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 18000.0,
+          "median_shortfall_inr": 18000.0,
+          "downside_shortfall_ratio": 0.21176470588235294,
+          "policy_risk_score": 21,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 12,
+          "sale_month": 12,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L85.00_T18",
+      "ltv": 0.85,
+      "principal_inr": 85000.0,
+      "tenure_months": 18,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.05,
+      "annual_nominal_rate": 0.23,
+      "emi_inr": 5628.22,
+      "maximum_instalment_inr": 5628.28,
+      "total_contractual_interest_inr": 16308.02,
+      "foir": 0.354276,
+      "feasible": false,
+      "constraint_failures": [
+        "downside_limit_month_0",
+        "missing_value_month_12",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 85000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 85000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 18000.0,
+          "median_shortfall_inr": 18000.0,
+          "downside_shortfall_ratio": 0.21176470588235294,
+          "policy_risk_score": 21,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 18,
+          "sale_month": 18,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L85.00_T24",
+      "ltv": 0.85,
+      "principal_inr": 85000.0,
+      "tenure_months": 24,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.05,
+      "annual_nominal_rate": 0.23,
+      "emi_inr": 4451.73,
+      "maximum_instalment_inr": 4451.79,
+      "total_contractual_interest_inr": 21841.58,
+      "foir": 0.3150596666666667,
+      "feasible": false,
+      "constraint_failures": [
+        "downside_limit_month_0",
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 85000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 85000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 18000.0,
+          "median_shortfall_inr": 18000.0,
+          "downside_shortfall_ratio": 0.21176470588235294,
+          "policy_risk_score": 21,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 24,
+          "sale_month": 24,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L85.00_T30",
+      "ltv": 0.85,
+      "principal_inr": 85000.0,
+      "tenure_months": 30,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.05,
+      "annual_nominal_rate": 0.23,
+      "emi_inr": 3751.89,
+      "maximum_instalment_inr": 3752.09,
+      "total_contractual_interest_inr": 27556.9,
+      "foir": 0.2917363333333333,
+      "feasible": false,
+      "constraint_failures": [
+        "downside_limit_month_0",
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 85000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 85000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 18000.0,
+          "median_shortfall_inr": 18000.0,
+          "downside_shortfall_ratio": 0.21176470588235294,
+          "policy_risk_score": 21,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 30,
+          "sale_month": 30,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L85.00_T36",
+      "ltv": 0.85,
+      "principal_inr": 85000.0,
+      "tenure_months": 36,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.05,
+      "annual_nominal_rate": 0.23,
+      "emi_inr": 3290.33,
+      "maximum_instalment_inr": 3290.33,
+      "total_contractual_interest_inr": 33451.74,
+      "foir": 0.27634433333333336,
+      "feasible": false,
+      "constraint_failures": [
+        "downside_limit_month_0",
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_30",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 85000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 85000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 18000.0,
+          "median_shortfall_inr": 18000.0,
+          "downside_shortfall_ratio": 0.21176470588235294,
+          "policy_risk_score": 21,
+          "risk_band": "Low",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 36,
+          "sale_month": 36,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L90.0_T12",
+      "ltv": 0.9,
+      "principal_inr": 90000.0,
+      "tenure_months": 12,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.05,
+      "annual_nominal_rate": 0.23,
+      "emi_inr": 8466.87,
+      "maximum_instalment_inr": 8466.87,
+      "total_contractual_interest_inr": 11602.41,
+      "foir": 0.4488956666666667,
+      "feasible": false,
+      "constraint_failures": [
+        "affordability_limit",
+        "downside_limit_month_0",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 90000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 90000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 23000.0,
+          "median_shortfall_inr": 23000.0,
+          "downside_shortfall_ratio": 0.25555555555555554,
+          "policy_risk_score": 26,
+          "risk_band": "Medium",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 12,
+          "sale_month": 12,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L90.0_T18",
+      "ltv": 0.9,
+      "principal_inr": 90000.0,
+      "tenure_months": 18,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.05,
+      "annual_nominal_rate": 0.23,
+      "emi_inr": 5959.29,
+      "maximum_instalment_inr": 5959.38,
+      "total_contractual_interest_inr": 17267.31,
+      "foir": 0.3653126666666667,
+      "feasible": false,
+      "constraint_failures": [
+        "downside_limit_month_0",
+        "missing_value_month_12",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 90000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 90000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 23000.0,
+          "median_shortfall_inr": 23000.0,
+          "downside_shortfall_ratio": 0.25555555555555554,
+          "policy_risk_score": 26,
+          "risk_band": "Medium",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 18,
+          "sale_month": 18,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L90.0_T24",
+      "ltv": 0.9,
+      "principal_inr": 90000.0,
+      "tenure_months": 24,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.05,
+      "annual_nominal_rate": 0.23,
+      "emi_inr": 4713.6,
+      "maximum_instalment_inr": 4713.6,
+      "total_contractual_interest_inr": 23126.32,
+      "foir": 0.32378666666666667,
+      "feasible": false,
+      "constraint_failures": [
+        "downside_limit_month_0",
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 90000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 90000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 23000.0,
+          "median_shortfall_inr": 23000.0,
+          "downside_shortfall_ratio": 0.25555555555555554,
+          "policy_risk_score": 26,
+          "risk_band": "Medium",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 24,
+          "sale_month": 24,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L90.0_T30",
+      "ltv": 0.9,
+      "principal_inr": 90000.0,
+      "tenure_months": 30,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.05,
+      "annual_nominal_rate": 0.23,
+      "emi_inr": 3972.59,
+      "maximum_instalment_inr": 3972.73,
+      "total_contractual_interest_inr": 29177.84,
+      "foir": 0.299091,
+      "feasible": false,
+      "constraint_failures": [
+        "downside_limit_month_0",
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 90000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 90000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 23000.0,
+          "median_shortfall_inr": 23000.0,
+          "downside_shortfall_ratio": 0.25555555555555554,
+          "policy_risk_score": 26,
+          "risk_band": "Medium",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 30,
+          "sale_month": 30,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    },
+    {
+      "candidate_id": "L90.0_T36",
+      "ltv": 0.9,
+      "principal_inr": 90000.0,
+      "tenure_months": 36,
+      "base_annual_nominal_rate": 0.18,
+      "annual_policy_premium": 0.05,
+      "annual_nominal_rate": 0.23,
+      "emi_inr": 3483.87,
+      "maximum_instalment_inr": 3484.12,
+      "total_contractual_interest_inr": 35419.57,
+      "foir": 0.282804,
+      "feasible": false,
+      "constraint_failures": [
+        "downside_limit_month_0",
+        "missing_value_month_12",
+        "missing_value_month_18",
+        "missing_value_month_24",
+        "missing_value_month_30",
+        "missing_value_month_6"
+      ],
+      "checkpoints": [
+        {
+          "default_month": 0,
+          "sale_month": 0,
+          "scheduled_principal_inr": 90000.0,
+          "gross_downside_value_inr": 70000.0,
+          "recovery_cost_inr": 3000.0,
+          "exposure_inr": 90000.0,
+          "downside_net_recovery_inr": 67000.0,
+          "median_net_recovery_inr": 67000.0,
+          "downside_shortfall_inr": 23000.0,
+          "median_shortfall_inr": 23000.0,
+          "downside_shortfall_ratio": 0.25555555555555554,
+          "policy_risk_score": 26,
+          "risk_band": "Medium",
+          "risk_definition": "Downside shortfall severity under inputs, not probability of default or loss",
+          "status": "evaluated"
+        },
+        {
+          "default_month": 36,
+          "sale_month": 36,
+          "scheduled_principal_inr": 0.0,
+          "downside_shortfall_ratio": null,
+          "status": "no_exposure"
+        }
+      ]
+    }
+  ],
+  "candidate_count": 35,
+  "feasible_candidate_count": 0,
+  "rejection_reason_counts": {
+    "missing_value_month_6": 35,
+    "missing_value_month_12": 28,
+    "missing_value_month_18": 21,
+    "missing_value_month_24": 14,
+    "missing_value_month_30": 7,
+    "affordability_limit": 3,
+    "downside_limit_month_0": 10
+  },
+  "assumptions": {
+    "value_path_kind": "explicit_assumptions",
+    "source": "Fictional hand-authored demonstration. Income verification flags are assumed for this fixture, not real customer verification.",
+    "recovery_cost_inr": 3000.0,
+    "recovery_delay_months": 0,
+    "future_value_coverage_guaranteed": false,
+    "default_exposure_convention": "Scheduled principal after t successful payments; freeze this principal during recovery delay, without later payments or extra arrears interest"
+  }
+}

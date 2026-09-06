@@ -1,0 +1,819 @@
+{
+  "min_count": 30,
+  "lower_bounds": [
+    0,
+    6,
+    12,
+    18,
+    24,
+    36,
+    48,
+    60
+  ],
+  "n_training": 9767,
+  "tables": {
+    "model_duration": [
+      {
+        "key": [
+          "APACHE",
+          0
+        ],
+        "median_ratio": 0.46245690742453543,
+        "count": 119
+      },
+      {
+        "key": [
+          "APACHE",
+          6
+        ],
+        "median_ratio": 0.44192927891909395,
+        "count": 340
+      },
+      {
+        "key": [
+          "APACHE",
+          12
+        ],
+        "median_ratio": 0.41603034005294237,
+        "count": 300
+      },
+      {
+        "key": [
+          "APACHE",
+          18
+        ],
+        "median_ratio": 0.40378480961546226,
+        "count": 257
+      },
+      {
+        "key": [
+          "APACHE",
+          24
+        ],
+        "median_ratio": 0.3470031545741325,
+        "count": 261
+      },
+      {
+        "key": [
+          "APACHE",
+          36
+        ],
+        "median_ratio": 0.3069526627218935,
+        "count": 67
+      },
+      {
+        "key": [
+          "APACHE",
+          48
+        ],
+        "median_ratio": 0.3076939310420691,
+        "count": 24
+      },
+      {
+        "key": [
+          "APACHE",
+          60
+        ],
+        "median_ratio": 0.26846061524856296,
+        "count": 7
+      },
+      {
+        "key": [
+          "CITY PLUS",
+          0
+        ],
+        "median_ratio": 0.44134815250714227,
+        "count": 19
+      },
+      {
+        "key": [
+          "CITY PLUS",
+          6
+        ],
+        "median_ratio": 0.4097187008265147,
+        "count": 40
+      },
+      {
+        "key": [
+          "CITY PLUS",
+          12
+        ],
+        "median_ratio": 0.37246069178160623,
+        "count": 32
+      },
+      {
+        "key": [
+          "CITY PLUS",
+          18
+        ],
+        "median_ratio": 0.3620694228114207,
+        "count": 42
+      },
+      {
+        "key": [
+          "CITY PLUS",
+          24
+        ],
+        "median_ratio": 0.2900668228014009,
+        "count": 57
+      },
+      {
+        "key": [
+          "CITY PLUS",
+          36
+        ],
+        "median_ratio": 0.29004767392872877,
+        "count": 32
+      },
+      {
+        "key": [
+          "CITY PLUS",
+          48
+        ],
+        "median_ratio": 0.3037556346670231,
+        "count": 9
+      },
+      {
+        "key": [
+          "JUPITER",
+          0
+        ],
+        "median_ratio": 0.5122737958558854,
+        "count": 136
+      },
+      {
+        "key": [
+          "JUPITER",
+          6
+        ],
+        "median_ratio": 0.48046875,
+        "count": 403
+      },
+      {
+        "key": [
+          "JUPITER",
+          12
+        ],
+        "median_ratio": 0.4386407228699014,
+        "count": 390
+      },
+      {
+        "key": [
+          "JUPITER",
+          18
+        ],
+        "median_ratio": 0.41326479185565973,
+        "count": 385
+      },
+      {
+        "key": [
+          "JUPITER",
+          24
+        ],
+        "median_ratio": 0.3807386764448544,
+        "count": 424
+      },
+      {
+        "key": [
+          "JUPITER",
+          36
+        ],
+        "median_ratio": 0.3522837706511176,
+        "count": 107
+      },
+      {
+        "key": [
+          "JUPITER",
+          48
+        ],
+        "median_ratio": 0.34001165454808324,
+        "count": 16
+      },
+      {
+        "key": [
+          "JUPITER",
+          60
+        ],
+        "median_ratio": 0.17857142857142858,
+        "count": 1
+      },
+      {
+        "key": [
+          "MOPEDS",
+          0
+        ],
+        "median_ratio": 0.5061728395061729,
+        "count": 117
+      },
+      {
+        "key": [
+          "MOPEDS",
+          6
+        ],
+        "median_ratio": 0.4665790626368813,
+        "count": 366
+      },
+      {
+        "key": [
+          "MOPEDS",
+          12
+        ],
+        "median_ratio": 0.43586550435865506,
+        "count": 333
+      },
+      {
+        "key": [
+          "MOPEDS",
+          18
+        ],
+        "median_ratio": 0.40211956170225105,
+        "count": 262
+      },
+      {
+        "key": [
+          "MOPEDS",
+          24
+        ],
+        "median_ratio": 0.3388854047662797,
+        "count": 254
+      },
+      {
+        "key": [
+          "MOPEDS",
+          36
+        ],
+        "median_ratio": 0.31110270504869086,
+        "count": 64
+      },
+      {
+        "key": [
+          "MOPEDS",
+          48
+        ],
+        "median_ratio": 0.31707557672524345,
+        "count": 11
+      },
+      {
+        "key": [
+          "MOPEDS",
+          60
+        ],
+        "median_ratio": 0.3107639862978263,
+        "count": 2
+      },
+      {
+        "key": [
+          "NTORQ",
+          0
+        ],
+        "median_ratio": 0.45097769423826567,
+        "count": 106
+      },
+      {
+        "key": [
+          "NTORQ",
+          6
+        ],
+        "median_ratio": 0.42570281124497994,
+        "count": 379
+      },
+      {
+        "key": [
+          "NTORQ",
+          12
+        ],
+        "median_ratio": 0.39386896060399024,
+        "count": 400
+      },
+      {
+        "key": [
+          "NTORQ",
+          18
+        ],
+        "median_ratio": 0.3652525035177089,
+        "count": 310
+      },
+      {
+        "key": [
+          "NTORQ",
+          24
+        ],
+        "median_ratio": 0.3220948715803564,
+        "count": 297
+      },
+      {
+        "key": [
+          "NTORQ",
+          36
+        ],
+        "median_ratio": 0.29292107404393813,
+        "count": 71
+      },
+      {
+        "key": [
+          "NTORQ",
+          48
+        ],
+        "median_ratio": 0.21667464313119456,
+        "count": 8
+      },
+      {
+        "key": [
+          "NTORQ",
+          60
+        ],
+        "median_ratio": 0.2698256034407839,
+        "count": 2
+      },
+      {
+        "key": [
+          "PEP",
+          0
+        ],
+        "median_ratio": 0.31620869240912663,
+        "count": 2
+      },
+      {
+        "key": [
+          "PEP",
+          6
+        ],
+        "median_ratio": 0.3804347826086957,
+        "count": 1
+      },
+      {
+        "key": [
+          "PEP",
+          12
+        ],
+        "median_ratio": 0.41746449191650165,
+        "count": 4
+      },
+      {
+        "key": [
+          "PEP",
+          18
+        ],
+        "median_ratio": 0.4083859008223547,
+        "count": 6
+      },
+      {
+        "key": [
+          "PEP",
+          24
+        ],
+        "median_ratio": 0.4059097645784644,
+        "count": 16
+      },
+      {
+        "key": [
+          "PEP",
+          36
+        ],
+        "median_ratio": 0.29267773520647083,
+        "count": 5
+      },
+      {
+        "key": [
+          "RADEON",
+          0
+        ],
+        "median_ratio": 0.4421518054532056,
+        "count": 37
+      },
+      {
+        "key": [
+          "RADEON",
+          6
+        ],
+        "median_ratio": 0.42328042328042326,
+        "count": 131
+      },
+      {
+        "key": [
+          "RADEON",
+          12
+        ],
+        "median_ratio": 0.4149880750834314,
+        "count": 116
+      },
+      {
+        "key": [
+          "RADEON",
+          18
+        ],
+        "median_ratio": 0.37174041619386267,
+        "count": 96
+      },
+      {
+        "key": [
+          "RADEON",
+          24
+        ],
+        "median_ratio": 0.35394089512237265,
+        "count": 102
+      },
+      {
+        "key": [
+          "RADEON",
+          36
+        ],
+        "median_ratio": 0.30317968458471634,
+        "count": 36
+      },
+      {
+        "key": [
+          "RADEON",
+          48
+        ],
+        "median_ratio": 0.28413463246001397,
+        "count": 7
+      },
+      {
+        "key": [
+          "RADEON",
+          60
+        ],
+        "median_ratio": 0.42857142857142855,
+        "count": 1
+      },
+      {
+        "key": [
+          "RAIDER",
+          0
+        ],
+        "median_ratio": 0.4326328800988875,
+        "count": 121
+      },
+      {
+        "key": [
+          "RAIDER",
+          6
+        ],
+        "median_ratio": 0.3992693490078759,
+        "count": 468
+      },
+      {
+        "key": [
+          "RAIDER",
+          12
+        ],
+        "median_ratio": 0.3730308109949986,
+        "count": 438
+      },
+      {
+        "key": [
+          "RAIDER",
+          18
+        ],
+        "median_ratio": 0.3508771929824561,
+        "count": 307
+      },
+      {
+        "key": [
+          "RAIDER",
+          24
+        ],
+        "median_ratio": 0.32303596544102875,
+        "count": 182
+      },
+      {
+        "key": [
+          "RAIDER",
+          36
+        ],
+        "median_ratio": 0.3042695725105691,
+        "count": 14
+      },
+      {
+        "key": [
+          "RAIDER",
+          48
+        ],
+        "median_ratio": 0.1892469862417441,
+        "count": 1
+      },
+      {
+        "key": [
+          "RONIN",
+          0
+        ],
+        "median_ratio": 0.41852288255386205,
+        "count": 10
+      },
+      {
+        "key": [
+          "RONIN",
+          6
+        ],
+        "median_ratio": 0.41382388405219706,
+        "count": 14
+      },
+      {
+        "key": [
+          "RONIN",
+          12
+        ],
+        "median_ratio": 0.35980714337115305,
+        "count": 17
+      },
+      {
+        "key": [
+          "RONIN",
+          18
+        ],
+        "median_ratio": 0.32069704584076464,
+        "count": 14
+      },
+      {
+        "key": [
+          "RONIN",
+          24
+        ],
+        "median_ratio": 0.3665101362959569,
+        "count": 5
+      },
+      {
+        "key": [
+          "SPORT",
+          0
+        ],
+        "median_ratio": 0.42299506946372156,
+        "count": 41
+      },
+      {
+        "key": [
+          "SPORT",
+          6
+        ],
+        "median_ratio": 0.414391828193148,
+        "count": 150
+      },
+      {
+        "key": [
+          "SPORT",
+          12
+        ],
+        "median_ratio": 0.37445670344366433,
+        "count": 153
+      },
+      {
+        "key": [
+          "SPORT",
+          18
+        ],
+        "median_ratio": 0.33163265306122447,
+        "count": 151
+      },
+      {
+        "key": [
+          "SPORT",
+          24
+        ],
+        "median_ratio": 0.30923751362213336,
+        "count": 146
+      },
+      {
+        "key": [
+          "SPORT",
+          36
+        ],
+        "median_ratio": 0.2845849802371542,
+        "count": 51
+      },
+      {
+        "key": [
+          "SPORT",
+          48
+        ],
+        "median_ratio": 0.2582005366628334,
+        "count": 9
+      },
+      {
+        "key": [
+          "SPORT",
+          60
+        ],
+        "median_ratio": 0.31683168316831684,
+        "count": 1
+      },
+      {
+        "key": [
+          "STAR CITY",
+          60
+        ],
+        "median_ratio": 0.30997304582210244,
+        "count": 1
+      },
+      {
+        "key": [
+          "TVS",
+          0
+        ],
+        "median_ratio": 0.5029379961273774,
+        "count": 33
+      },
+      {
+        "key": [
+          "TVS",
+          6
+        ],
+        "median_ratio": 0.4816622845267775,
+        "count": 50
+      },
+      {
+        "key": [
+          "TVS",
+          12
+        ],
+        "median_ratio": 0.3929968792016987,
+        "count": 38
+      },
+      {
+        "key": [
+          "TVS",
+          18
+        ],
+        "median_ratio": 0.3683139250580032,
+        "count": 40
+      },
+      {
+        "key": [
+          "TVS",
+          24
+        ],
+        "median_ratio": 0.3120176623734664,
+        "count": 14
+      },
+      {
+        "key": [
+          "ZEST",
+          0
+        ],
+        "median_ratio": 0.5969590792149407,
+        "count": 24
+      },
+      {
+        "key": [
+          "ZEST",
+          6
+        ],
+        "median_ratio": 0.5656565656565656,
+        "count": 87
+      },
+      {
+        "key": [
+          "ZEST",
+          12
+        ],
+        "median_ratio": 0.538318512705929,
+        "count": 90
+      },
+      {
+        "key": [
+          "ZEST",
+          18
+        ],
+        "median_ratio": 0.48654805214910485,
+        "count": 43
+      },
+      {
+        "key": [
+          "ZEST",
+          24
+        ],
+        "median_ratio": 0.4596496589416122,
+        "count": 36
+      },
+      {
+        "key": [
+          "ZEST",
+          36
+        ],
+        "median_ratio": 0.45228902371759516,
+        "count": 7
+      },
+      {
+        "key": [
+          "ZEST",
+          48
+        ],
+        "median_ratio": 0.45161290322580644,
+        "count": 1
+      }
+    ],
+    "model": [
+      {
+        "key": [
+          "APACHE"
+        ],
+        "median_ratio": 0.4062976130015236,
+        "count": 1375
+      },
+      {
+        "key": [
+          "CITY PLUS"
+        ],
+        "median_ratio": 0.35457294816977786,
+        "count": 231
+      },
+      {
+        "key": [
+          "JUPITER"
+        ],
+        "median_ratio": 0.42964229547717714,
+        "count": 1862
+      },
+      {
+        "key": [
+          "MOPEDS"
+        ],
+        "median_ratio": 0.42138364779874216,
+        "count": 1409
+      },
+      {
+        "key": [
+          "NTORQ"
+        ],
+        "median_ratio": 0.38405139305914393,
+        "count": 1573
+      },
+      {
+        "key": [
+          "PEP"
+        ],
+        "median_ratio": 0.3843350383631714,
+        "count": 34
+      },
+      {
+        "key": [
+          "RADEON"
+        ],
+        "median_ratio": 0.3875522187272331,
+        "count": 526
+      },
+      {
+        "key": [
+          "RAIDER"
+        ],
+        "median_ratio": 0.373015873015873,
+        "count": 1531
+      },
+      {
+        "key": [
+          "RONIN"
+        ],
+        "median_ratio": 0.3728364018847832,
+        "count": 60
+      },
+      {
+        "key": [
+          "SPORT"
+        ],
+        "median_ratio": 0.34913320090569394,
+        "count": 702
+      },
+      {
+        "key": [
+          "STAR CITY"
+        ],
+        "median_ratio": 0.30997304582210244,
+        "count": 1
+      },
+      {
+        "key": [
+          "TVS"
+        ],
+        "median_ratio": 0.4332250270765642,
+        "count": 175
+      },
+      {
+        "key": [
+          "ZEST"
+        ],
+        "median_ratio": 0.5302380581111283,
+        "count": 288
+      }
+    ],
+    "fuel": [
+      {
+        "key": [
+          "EV"
+        ],
+        "median_ratio": 0.4332250270765642,
+        "count": 175
+      },
+      {
+        "key": [
+          "Petrol"
+        ],
+        "median_ratio": 0.3974460886225592,
+        "count": 9592
+      }
+    ]
+  },
+  "global": {
+    "median_ratio": 0.3981264637002342,
+    "count": 9767
+  }
+}

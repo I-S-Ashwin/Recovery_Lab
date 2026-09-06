@@ -1,0 +1,76 @@
+{
+  "phase": 2,
+  "split_counts": {
+    "operational": {
+      "train": 9767,
+      "tuning": 576,
+      "calibration": 583,
+      "final_test": 1244,
+      "excluded": 2830
+    },
+    "retrospective": {
+      "train": 9767,
+      "tuning": 1879,
+      "calibration": 1519,
+      "final_test": 1835,
+      "excluded": 0
+    }
+  },
+  "metrics": [
+    {
+      "protocol": "operational",
+      "role": "tuning",
+      "model": "B0_model_duration",
+      "n": 576,
+      "mae_inr": 7360.494725759358,
+      "rmse_inr": 9990.904368640682,
+      "mape_percent": 22.05249750165774,
+      "median_absolute_error_inr": 5194.03326489704,
+      "mean_signed_error_inr": 1749.1543666286843,
+      "wape_percent": 17.887416127941975
+    },
+    {
+      "protocol": "operational",
+      "role": "tuning",
+      "model": "B00_global_ratio",
+      "n": 576,
+      "mae_inr": 8933.058808222742,
+      "rmse_inr": 11384.000192633042,
+      "mape_percent": 27.505323858668806,
+      "median_absolute_error_inr": 7482.435597189695,
+      "mean_signed_error_inr": 3033.351060369503,
+      "wape_percent": 21.709048936458913
+    },
+    {
+      "protocol": "retrospective",
+      "role": "tuning",
+      "model": "B0_model_duration",
+      "n": 1879,
+      "mae_inr": 7928.081829023681,
+      "rmse_inr": 10786.478619025818,
+      "mape_percent": 22.455138261417886,
+      "median_absolute_error_inr": 5842.143727380942,
+      "mean_signed_error_inr": 1489.3636801739715,
+      "wape_percent": 18.219448126555548
+    },
+    {
+      "protocol": "retrospective",
+      "role": "tuning",
+      "model": "B00_global_ratio",
+      "n": 1879,
+      "mae_inr": 9626.796056001685,
+      "rmse_inr": 12391.417066459813,
+      "mape_percent": 27.51847663314925,
+      "median_absolute_error_inr": 7817.3302107728305,
+      "mean_signed_error_inr": 1726.4013570425243,
+      "wape_percent": 22.123246852114235
+    }
+  ],
+  "reserved_outcomes_scored": false,
+  "input_sha256": "34a903573d80aed79b58da9bc59a11e3764c2f7ada5ac030e99536b8efe50be0",
+  "split_manifest_hashes": {
+    "operational": "10e76bb88fe4950360aba33ded8743c587f81c392e781deb2108f0ca6bcce1e7",
+    "retrospective": "806c3891e18e65d652df0f9b179467966e768369d3072b2b134840940e197cf8"
+  },
+  "baseline_state_sha256": "0109f2ef0fb348279ade999e627da89ba0ac8d9e19194c0e8621f59b20ab20eb"
+}

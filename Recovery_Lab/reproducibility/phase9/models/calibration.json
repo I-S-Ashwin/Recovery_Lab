@@ -1,0 +1,15 @@
+{
+  "n": 583,
+  "alpha": 0.2,
+  "target_coverage": 0.8,
+  "rank_one_based": 468,
+  "correction_inr": 1859.2092150430399,
+  "version": "phase4-operational-80-v1",
+  "model_sha256": "1b0c5949af11932f3ea693fee55a91aa68bc292d524e42f45151b5acd707d0d3",
+  "available_from": "2026-05-01",
+  "fit_role": "operational.calibration",
+  "method": "nonnegative conformal quantile expansion",
+  "calibration_scope": "pooled observed sold assets",
+  "coverage_assumption": "Exchangeability not established; no guaranteed temporal or per-segment coverage",
+  "lower_upper_are_not_individually_calibrated_quantiles": true
+}

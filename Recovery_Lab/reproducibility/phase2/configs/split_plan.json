@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "training_label_cutoff_exclusive": "2026-01-01",
+  "tuning_end_exclusive": "2026-03-01",
+  "calibration_end_exclusive": "2026-05-01",
+  "dataset_end_inclusive": "2026-07-31",
+  "label_reporting_delay_days": 0,
+  "label_availability_assumption": "Sale event date is a proxy; actual system arrival timestamp is unavailable. Cutoffs are strict.",
+  "baseline_min_group_count": 30,
+  "duration_bin_lower_bounds_months": [0, 6, 12, 18, 24, 36, 48, 60],
+  "duration_definition": "Days from agreement to seizure / 30; not confirmed vehicle age",
+  "baseline_prediction": "Original asset cost multiplied by training median sale-to-original-cost ratio",
+  "fallback_order": ["model_duration", "model", "fuel", "global"],
+  "evaluate_roles_in_phase2": ["tuning"],
+  "reserved_roles": ["calibration", "final_test"],
+  "operational_role_rules": {
+    "train": "Label available before 2026-01-01",
+    "tuning": "Seizure on/after 2026-01-01 and before 2026-03-01; label available before 2026-03-01",
+    "calibration": "Seizure on/after 2026-03-01 and before 2026-05-01; label available before 2026-05-01",
+    "final_test": "Seizure on/after 2026-05-01 with observed sale in the supplied dataset",
+    "excluded": "Other records: old seizures with later sales, or outcome crosses its allocated development boundary"
+  },
+  "retrospective_role_rules": "Partition by label availability: before Jan 1 train; Jan-Feb tuning; Mar-Apr calibration; May-Jul final_test. This is not an operational seizure-time replay.",
+  "test_access_policy": "Phase 1 descriptive profiling included the entire file. Phase 2 does not compute model metrics or export target values for reserved roles. This is a model-development holdout, not a previously unseen external dataset.",
+  "future_phase_rule": "Compare models on the same protocol and IDs. Do not change boundaries, bin edges or minimum counts after looking at final-test errors. Any changed experiment needs a new version and honest holdout status."
+}

@@ -1,0 +1,137 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "Original workbook matches audited hash",
+      "result": "passed"
+    },
+    {
+      "check": "Source script matches manifest",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: configs/data_dictionary.json",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: configs/feature_policy.json",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: data/canonical_records.jsonl",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: data/quarantined_records.jsonl",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: data/source_values.jsonl",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: reports/column_profiles.json",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: reports/Data_Dictionary.md",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: reports/monthly_profile.json",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: reports/Phase_1_Report.md",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: reports/quality_checks.json",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: reports/row_issues.jsonl",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: reports/segment_profile.json",
+      "result": "passed"
+    },
+    {
+      "check": "Artifact hash: reports/summary.json",
+      "result": "passed"
+    },
+    {
+      "check": "All 41 source columns documented exactly once",
+      "result": "passed"
+    },
+    {
+      "check": "49 canonical columns documented uniquely",
+      "result": "passed"
+    },
+    {
+      "check": "Row reconciliation",
+      "result": "passed"
+    },
+    {
+      "check": "Current supplied dataset has expected 15000 rows",
+      "result": "passed"
+    },
+    {
+      "check": "No row lost or duplicated during normalization",
+      "result": "passed"
+    },
+    {
+      "check": "Quarantine membership matches hard-rule issues",
+      "result": "passed"
+    },
+    {
+      "check": "Retained agreement IDs are unique",
+      "result": "passed"
+    },
+    {
+      "check": "Source-value snapshot matches every original cell",
+      "result": "passed"
+    },
+    {
+      "check": "Every canonical source field preserves normalized source value",
+      "result": "passed"
+    },
+    {
+      "check": "Every derived value independently reconciles",
+      "result": "passed"
+    },
+    {
+      "check": "Rule counts reconcile with row-level issues",
+      "result": "passed"
+    },
+    {
+      "check": "Proposed core excludes future, audit, ID and ambiguous-age fields",
+      "result": "passed"
+    },
+    {
+      "check": "Conditional fields not silently enabled",
+      "result": "passed"
+    },
+    {
+      "check": "All proposed fields exist",
+      "result": "passed"
+    },
+    {
+      "check": "Origination excludes realized seizure duration",
+      "result": "passed"
+    },
+    {
+      "check": "Every retained record follows 49-field schema",
+      "result": "passed"
+    },
+    {
+      "check": "Source still unchanged at verification end",
+      "result": "passed"
+    }
+  ],
+  "check_count": 32,
+  "source_records_verified": 15000,
+  "source_cells_verified": 615000,
+  "note": "Data preparation verification only; no trained model or performance validation."
+}

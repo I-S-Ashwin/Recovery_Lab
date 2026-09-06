@@ -1,0 +1,207 @@
+{
+  "status": "passed",
+  "check_count": 50,
+  "checks": [
+    {
+      "check": "Canonical data hash unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Temporal split hash unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Phase 3 model unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Bundled model is exact frozen copy",
+      "result": "passed"
+    },
+    {
+      "check": "Correction bound to exact model",
+      "result": "passed"
+    },
+    {
+      "check": "Plan unchanged after fitting",
+      "result": "passed"
+    },
+    {
+      "check": "Code hash calibrated.py",
+      "result": "passed"
+    },
+    {
+      "check": "Code hash run_phase4.py",
+      "result": "passed"
+    },
+    {
+      "check": "Code hash frozen_valuation.py",
+      "result": "passed"
+    },
+    {
+      "check": "Frozen inference identical to Phase 3",
+      "result": "passed"
+    },
+    {
+      "check": "Exactly 583 allocated calibration IDs",
+      "result": "passed"
+    },
+    {
+      "check": "Calibration disjoint from training and selection",
+      "result": "passed"
+    },
+    {
+      "check": "No final-test ID in calibration predictions",
+      "result": "passed"
+    },
+    {
+      "check": "All 1244 final-test cases remain reserved",
+      "result": "passed"
+    },
+    {
+      "check": "Calibration labels match source",
+      "result": "passed"
+    },
+    {
+      "check": "All labels precede version availability",
+      "result": "passed"
+    },
+    {
+      "check": "All calibration seizures follow model selection period",
+      "result": "passed"
+    },
+    {
+      "check": "Saved base quantiles reproduce",
+      "result": "passed"
+    },
+    {
+      "check": "Every score independently reconciles",
+      "result": "passed"
+    },
+    {
+      "check": "Finite-sample integer rank is 468",
+      "result": "passed"
+    },
+    {
+      "check": "No interpolated quantile used",
+      "result": "passed"
+    },
+    {
+      "check": "All interval endpoints independently reconcile",
+      "result": "passed"
+    },
+    {
+      "check": "Median prediction unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Finite nonnegative ordered final intervals",
+      "result": "passed"
+    },
+    {
+      "check": "Intervals expand, never shrink",
+      "result": "passed"
+    },
+    {
+      "check": "raw_on_calibration independent coverage",
+      "result": "passed"
+    },
+    {
+      "check": "raw_on_calibration independent width",
+      "result": "passed"
+    },
+    {
+      "check": "adjusted_on_fit_data independent coverage",
+      "result": "passed"
+    },
+    {
+      "check": "adjusted_on_fit_data independent width",
+      "result": "passed"
+    },
+    {
+      "check": "Diagnostic roles disjoint and exhaustive",
+      "result": "passed"
+    },
+    {
+      "check": "Diagnostic membership follows predetermined ID hash",
+      "result": "passed"
+    },
+    {
+      "check": "Diagnostic correction uses fit subset only",
+      "result": "passed"
+    },
+    {
+      "check": "Only held-back IDs in diagnostic predictions",
+      "result": "passed"
+    },
+    {
+      "check": "Held-back coverage reconciles",
+      "result": "passed"
+    },
+    {
+      "check": "Refit fit-coverage not called validation",
+      "result": "passed"
+    },
+    {
+      "check": "Final model not retrained or final-test scored",
+      "result": "passed"
+    },
+    {
+      "check": "Forward-replay sample availability reconciles",
+      "result": "passed"
+    },
+    {
+      "check": "No unsupported online-validation claim",
+      "result": "passed"
+    },
+    {
+      "check": "Toy finite-rank correction equals four",
+      "result": "passed"
+    },
+    {
+      "check": "Zero-floor expansion example",
+      "result": "passed"
+    },
+    {
+      "check": "Already covered toy has zero expansion",
+      "result": "passed"
+    },
+    {
+      "check": "Insufficient finite-rank sample rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Below configured sample minimum rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Invalid alpha rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Crossing quantiles rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Negative correction rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Nonfinite correction rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Versioned wrapper reproduces bundle outputs",
+      "result": "passed"
+    },
+    {
+      "check": "Unavailable historical version rejected",
+      "result": "passed"
+    },
+    {
+      "check": "Target leakage rejected by wrapper",
+      "result": "passed"
+    }
+  ],
+  "final_test_scored": false
+}

@@ -1,0 +1,42 @@
+{
+  "request_id": "DEMO-MISSING-OBLIGATIONS",
+  "asset_reference_cost_inr": 100000,
+  "verified_monthly_income_inr": 30000,
+  "existing_monthly_obligations_inr": null,
+  "income_verified": true,
+  "obligations_verified": true,
+  "recovery_cost_inr": 3000,
+  "recovery_delay_months": 0,
+  "value_path_kind": "explicit_assumptions",
+  "assumption_source": "Fictional hand-authored demonstration. Income verification flags are assumed for this fixture, not real customer verification.",
+  "downside_value_path": [
+    {
+      "month": 0,
+      "value_inr": 70000
+    },
+    {
+      "month": 6,
+      "value_inr": 63000
+    },
+    {
+      "month": 12,
+      "value_inr": 56000
+    },
+    {
+      "month": 18,
+      "value_inr": 50000
+    },
+    {
+      "month": 24,
+      "value_inr": 44000
+    },
+    {
+      "month": 30,
+      "value_inr": 39000
+    },
+    {
+      "month": 36,
+      "value_inr": 35000
+    }
+  ]
+}

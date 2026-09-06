@@ -1,0 +1,16 @@
+{
+  "operational": {
+    "train": 9767,
+    "tuning": 576,
+    "calibration": 583,
+    "final_test": 1244,
+    "excluded": 2830
+  },
+  "retrospective": {
+    "train": 9767,
+    "tuning": 1879,
+    "calibration": 1519,
+    "final_test": 1835,
+    "excluded": 0
+  }
+}

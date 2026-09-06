@@ -1,0 +1,251 @@
+{
+  "status": "passed",
+  "check_count": 61,
+  "checks": [
+    {
+      "check": "Canonical input unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Plan remains frozen",
+      "result": "passed"
+    },
+    {
+      "check": "Feature policy unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "Baseline state unchanged",
+      "result": "passed"
+    },
+    {
+      "check": "No metric references a reserved role",
+      "result": "passed"
+    },
+    {
+      "check": "operational manifest hash",
+      "result": "passed"
+    },
+    {
+      "check": "operational every input row assigned exactly once",
+      "result": "passed"
+    },
+    {
+      "check": "operational no target in split manifest",
+      "result": "passed"
+    },
+    {
+      "check": "operational training labels predate release",
+      "result": "passed"
+    },
+    {
+      "check": "operational tuning labels available before calibration",
+      "result": "passed"
+    },
+    {
+      "check": "operational calibration labels available before final release",
+      "result": "passed"
+    },
+    {
+      "check": "Operational tuning seizures follow training release",
+      "result": "passed"
+    },
+    {
+      "check": "Operational tuning seizures before March",
+      "result": "passed"
+    },
+    {
+      "check": "Operational calibration seizures in March-April",
+      "result": "passed"
+    },
+    {
+      "check": "Operational test seizures on/after May",
+      "result": "passed"
+    },
+    {
+      "check": "operational predictions are exactly tuning IDs",
+      "result": "passed"
+    },
+    {
+      "check": "operational reserved IDs absent from prediction exports",
+      "result": "passed"
+    },
+    {
+      "check": "operational actual values are source tuning labels",
+      "result": "passed"
+    },
+    {
+      "check": "operational B0_model_duration MAE reconciliation",
+      "result": "passed"
+    },
+    {
+      "check": "operational B0_model_duration RMSE reconciliation",
+      "result": "passed"
+    },
+    {
+      "check": "operational B00_global_ratio MAE reconciliation",
+      "result": "passed"
+    },
+    {
+      "check": "operational B00_global_ratio RMSE reconciliation",
+      "result": "passed"
+    },
+    {
+      "check": "operational saved baseline reproduces predictions",
+      "result": "passed"
+    },
+    {
+      "check": "operational global median based on training only",
+      "result": "passed"
+    },
+    {
+      "check": "operational baseline training count",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective manifest hash",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective every input row assigned exactly once",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective no target in split manifest",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective training labels predate release",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective tuning labels available before calibration",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective calibration labels available before final release",
+      "result": "passed"
+    },
+    {
+      "check": "Retrospective tuning labels in January-February",
+      "result": "passed"
+    },
+    {
+      "check": "Retrospective calibration labels in March-April",
+      "result": "passed"
+    },
+    {
+      "check": "Retrospective test labels on/after May",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective predictions are exactly tuning IDs",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective reserved IDs absent from prediction exports",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective actual values are source tuning labels",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective B0_model_duration MAE reconciliation",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective B0_model_duration RMSE reconciliation",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective B00_global_ratio MAE reconciliation",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective B00_global_ratio RMSE reconciliation",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective saved baseline reproduces predictions",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective global median based on training only",
+      "result": "passed"
+    },
+    {
+      "check": "retrospective baseline training count",
+      "result": "passed"
+    },
+    {
+      "check": "Four independent fallback levels",
+      "result": "passed"
+    },
+    {
+      "check": "Four independent fallback values",
+      "result": "passed"
+    },
+    {
+      "check": "Duration boundaries are left inclusive",
+      "result": "passed"
+    },
+    {
+      "check": "Reject forbidden predictor sale_amount",
+      "result": "passed"
+    },
+    {
+      "check": "Reject forbidden predictor sold_date",
+      "result": "passed"
+    },
+    {
+      "check": "Reject forbidden predictor realized_yard_days",
+      "result": "passed"
+    },
+    {
+      "check": "Reject forbidden predictor outstanding_balance_at_liquidation",
+      "result": "passed"
+    },
+    {
+      "check": "Reject forbidden predictor asset_body_condition",
+      "result": "passed"
+    },
+    {
+      "check": "Reject forbidden predictor agreement_id",
+      "result": "passed"
+    },
+    {
+      "check": "Reject zero asset cost",
+      "result": "passed"
+    },
+    {
+      "check": "Reject negative duration",
+      "result": "passed"
+    },
+    {
+      "check": "Reject missing required input",
+      "result": "passed"
+    },
+    {
+      "check": "Target/future-field changes cannot affect projected features",
+      "result": "passed"
+    },
+    {
+      "check": "Operational cutoff boundary examples",
+      "result": "passed"
+    },
+    {
+      "check": "Retrospective cutoff boundary examples",
+      "result": "passed"
+    },
+    {
+      "check": "Delayed label is not prematurely available",
+      "result": "passed"
+    },
+    {
+      "check": "Phase 1 file remains unchanged after checks",
+      "result": "passed"
+    }
+  ],
+  "reserved_outcomes_scored": false
+}
