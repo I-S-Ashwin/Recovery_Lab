@@ -1,6 +1,6 @@
 # Recovery Lab: final submission
 
-[![Watch the video](URL_TO_YOUR_THUMBNAIL_IMAGE)](https://drive.google.com/file/d/1uSZVB-btL5N6Wlo5NhxhNPAgJU4nGEeB/view?usp=sharing)
+[![Watch the video](https://drive.google.com/file/d/1ZkvQ5a_gS8gDgb9BXAGatQJhpJcOr3xo/view?usp=sharing)](https://drive.google.com/file/d/1uSZVB-btL5N6Wlo5NhxhNPAgJU4nGEeB/view?usp=sharing)
 
 ## Deliverables
 
