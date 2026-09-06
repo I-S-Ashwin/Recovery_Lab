@@ -1,7 +1,7 @@
 # Recovery Lab: final submission
 
 [![Watch the video](https://github.com/user-attachments/assets/f6c07294-5a90-4286-a5e2-497e61c55e9c)](https://drive.google.com/file/d/1uSZVB-btL5N6Wlo5NhxhNPAgJU4nGEeB/view?usp=sharing)
-## Click On The Image For Video!!!
+## [Click here to watch the Google Drive video Or The Image](https://drive.google.com/file/d/1uSZVB-btL5N6Wlo5NhxhNPAgJU4nGEeB/view?usp=sharing)
 
 ## Deliverables
 
