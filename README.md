@@ -1,7 +1,5 @@
 # Recovery Lab: final submission
 
-The ten-phase local POC is packaged here. Begin with the presentation and executive summary, then follow `Demo_Script.md` for the five-minute demonstration.
-
 ## Deliverables
 
 | File or folder | Purpose |
