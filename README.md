@@ -1,5 +1,7 @@
 # Recovery Lab: final submission
 
+[![Watch the video](URL_TO_YOUR_THUMBNAIL_IMAGE)](https://drive.google.com/file/d/1uSZVB-btL5N6Wlo5NhxhNPAgJU4nGEeB/view?usp=sharing)
+
 ## Deliverables
 
 | File or folder | Purpose |
