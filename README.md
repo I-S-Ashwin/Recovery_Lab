@@ -10,11 +10,8 @@
 | Recovery_Lab_Presentation_Final.pptx | 12 slides using the supplied event cover and content template; editable charts, tables and architecture |
 | Executive_Summary.pdf | Two-page summary of measured results, assumptions and pilot gates |
 | Recovery_Lab_POC.ipynb | Executed notebook reproducing frozen inference, calibration and business calculations |
-| Demo_Script.md | Timed narration, controls, fallback plan and judge questions |
-| Architecture.md | Editable Mermaid source and component boundaries |
 | Model_Card.md / Data_Dictionary.md / Open_Definitions.md | Model scope, all 49 canonical fields and unresolved definitions |
 | local_app/ | Complete Python service, compiled dashboard, source and frozen models |
-| reproducibility/ | Phases 1–6 and 9, preserving source audit, training code, splits and evaluation evidence |
 | verification.json / package_index.json | Final verification summary and file hashes |
 
 ## Run locally on another Windows computer
